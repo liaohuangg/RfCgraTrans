@@ -1,0 +1,160 @@
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 2
+
+ nodeID 3
+
+ nodeID 4
+
+ nodeID 5
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 1 end 2 dif 0 startTime 0 endTime 0 useRe 0
+begin 0 end 2 dif 0 startTime 0 endTime 0 useRe 0
+begin 3 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 2 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 5 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 3
+
+ nodeID 4
+
+ nodeID 6
+
+ nodeID 7
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 0 end 1 dif 0 startTime 0 endTime 0 useRe 0
+begin 3 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 1 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 6 end 7 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 3
+
+ nodeID 4
+
+ nodeID 6
+
+ nodeID 7
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 0 end 1 dif 0 startTime 0 endTime 0 useRe 0
+begin 3 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 1 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 6 end 7 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 3
+
+ nodeID 4
+
+ nodeID 6
+
+ nodeID 7
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 0 end 1 dif 0 startTime 0 endTime 0 useRe 0
+begin 3 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 1 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 6 end 7 dif 0 startTime 0 endTime 0 useRe 0
+  0

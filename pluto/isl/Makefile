@@ -863,9 +863,9 @@ ECHO_T =
 EGREP = /usr/bin/grep -E
 EXEEXT = 
 FGREP = /usr/bin/grep -F
-GIT_HEAD = /home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl/index
-GIT_HEAD_ID = 74d72d71
-GIT_HEAD_VERSION = `GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl git describe --always`
+GIT_HEAD = 
+GIT_HEAD_ID = UNKNOWN
+GIT_HEAD_VERSION = UNKNOWN
 GREP = /usr/bin/grep
 HAVE_CXX11 = 1
 INSTALL = /usr/bin/install -c
@@ -2855,12 +2855,12 @@ uninstall-am: uninstall-libLTLIBRARIES uninstall-local \
 #			> $@ || (rm $@ && false)
 
 dist-hook:
-	echo `GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl git describe --always` > $(distdir)/GIT_HEAD_ID
+	echo UNKNOWN > $(distdir)/GIT_HEAD_ID
 	(cd doc; make manual.pdf)
 	cp doc/manual.pdf $(distdir)/doc/
 
-gitversion.h: /home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl/index
-	$(AM_V_GEN)echo '#define GIT_HEAD_ID "'`GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl git describe --always`'"' > $@
+gitversion.h: 
+	$(AM_V_GEN)echo '#define GIT_HEAD_ID "'UNKNOWN'"' > $@
 
 install-data-local: $(srcdir)/libisl-gdb.py
 	@libisl=`sed -ne "/^library_names=/{s/.*='//;s/'$$//;s/ .*//;p;}" \

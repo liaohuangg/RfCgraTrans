@@ -586,9 +586,9 @@ ECHO_T =
 EGREP = /usr/bin/grep -E
 EXEEXT = 
 FGREP = /usr/bin/grep -F
-GIT_HEAD = /home/huangl/workspace/RfCgraTrans/pluto/.git/modules/pet/index
-GIT_HEAD_ID = ee03e38
-GIT_HEAD_VERSION = `GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/pet git describe --always`
+GIT_HEAD = 
+GIT_HEAD_ID = UNKNOWN
+GIT_HEAD_VERSION = UNKNOWN
 GREP = /usr/bin/grep
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
@@ -1936,10 +1936,10 @@ isl.py: libdep.a interface/isl.py.top
 
 dist-hook: isl.py
 	cp $< $(distdir)/
-	echo `GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/pet git describe --always` > $(distdir)/GIT_HEAD_ID
+	echo UNKNOWN > $(distdir)/GIT_HEAD_ID
 
-gitversion.h: /home/huangl/workspace/RfCgraTrans/pluto/.git/modules/pet/index
-	$(AM_V_GEN)echo '#define GIT_HEAD_ID "'`GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/pet git describe --always`'"' > $@
+gitversion.h: 
+	$(AM_V_GEN)echo '#define GIT_HEAD_ID "'UNKNOWN'"' > $@
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

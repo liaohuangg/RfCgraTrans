@@ -1,1 +1,1 @@
-#define PLUTO_VERSION ""
+#define PLUTO_VERSION "0.12.0"

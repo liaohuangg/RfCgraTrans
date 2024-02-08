@@ -370,11 +370,11 @@ configure:9086: checking lex output file root
 configure:9100: result: lex.yy
 configure:9105: checking lex library
 configure:9119: /usr/bin/cc -o conftest -g -O2   conftest.c   >&5
-/usr/bin/ld: /tmp/cc7hp1q6.o: in function `input':
+/usr/bin/ld: /tmp/ccbbfQxs.o: in function `input':
 /home/huangl/workspace/RfCgraTrans/pluto/clan/lex.yy.c:1180: undefined reference to `yywrap'
-/usr/bin/ld: /tmp/cc7hp1q6.o: in function `yylex':
+/usr/bin/ld: /tmp/ccbbfQxs.o: in function `yylex':
 /home/huangl/workspace/RfCgraTrans/pluto/clan/lex.yy.c:871: undefined reference to `yywrap'
-/usr/bin/ld: /tmp/cc7hp1q6.o: in function `main':
+/usr/bin/ld: /tmp/ccbbfQxs.o: in function `main':
 /home/huangl/workspace/RfCgraTrans/pluto/clan/conftest.l:17: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:9119: $? = 1

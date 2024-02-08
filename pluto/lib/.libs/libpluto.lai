@@ -17,7 +17,7 @@ old_library='libpluto.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libcloog-isl.la -L/lib /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libisl.la /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libcandl.la /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libosl.la /usr/local/lib/libpiplib_dp.la -lgmp -lgomp'
+dependency_libs=' /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libcloog-isl.la -L/lib /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libisl.la /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libcandl.la /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libosl.la /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libpiplib_dp.la -lgmp -lgomp'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

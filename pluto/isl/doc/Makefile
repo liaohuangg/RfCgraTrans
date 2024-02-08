@@ -173,9 +173,9 @@ ECHO_T =
 EGREP = /usr/bin/grep -E
 EXEEXT = 
 FGREP = /usr/bin/grep -F
-GIT_HEAD = /home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl/index
-GIT_HEAD_ID = 74d72d71
-GIT_HEAD_VERSION = `GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl git describe --always`
+GIT_HEAD = 
+GIT_HEAD_ID = UNKNOWN
+GIT_HEAD_VERSION = UNKNOWN
 GREP = /usr/bin/grep
 HAVE_CXX11 = 1
 INSTALL = /usr/bin/install -c
@@ -510,13 +510,13 @@ export BSTINPUTS := $(srcdir):$(BSTINPUTS)
 user.tex: user.pod
 	$(PERL) $(srcdir)/mypod2latex $< $@
 manual.pdf: manual.tex user.tex $(srcdir)/implementation.tex reading.tex
-	(cd ..; echo "`GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl git describe --always`") > version.tex
+	(cd ..; echo "UNKNOWN") > version.tex
 	$(PDFLATEX) $<
 	biber manual
 	$(PDFLATEX) $<
 	$(PDFLATEX) $<
 user.html: user.pod
-	(cd ..; echo "`GIT_DIR=/home/huangl/workspace/RfCgraTrans/pluto/.git/modules/isl git describe --always`") > version
+	(cd ..; echo "UNKNOWN") > version
 	$(POD2HTML) --infile=$< --outfile=$@ --title="Integer Set Library: Manual [version `cat version`]"
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

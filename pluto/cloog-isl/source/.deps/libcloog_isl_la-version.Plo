@@ -1,0 +1,8 @@
+source/libcloog_isl_la-version.lo: source/version.c \
+ /usr/include/stdc-predef.h version.h include/cloog/version.h
+
+/usr/include/stdc-predef.h:
+
+version.h:
+
+include/cloog/version.h:

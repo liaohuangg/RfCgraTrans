@@ -1,0 +1,15 @@
+*.par.c
+*.tiled.c
+*.cloog
+*.pluto.c
+mkl
+out_*
+orig
+opt
+par
+tiled
+orig_par
+*.pipepar.c
+blis
+openblas
+pipepar

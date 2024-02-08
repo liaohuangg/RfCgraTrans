@@ -1,0 +1,58 @@
+# Pluto
+#
+# Copyright (C) Uday Bondhugula 2007
+#
+SUBDIRS =
+
+MAINTAINERCLEANFILES = Makefile.in
+
+if EXTERNAL_ISL
+# ISL_INCLUDE, ISL_LIBADD were already defined
+else
+ISL_INCLUDE += -I$(top_srcdir)/isl/include -I$(top_builddir)/isl/include
+ISL_LIBADD += $(top_builddir)/isl/libisl.la
+endif
+
+bin_PROGRAMS = pluto
+
+pluto_SOURCES = \
+		constraints_polylib.c \
+		constraints_polylib.h \
+		main.cpp \
+		pet_to_pluto.cpp \
+		version.h
+
+pluto_CXXFLAGS = $(OPT_FLAGS) $(DEBUG_FLAGS) \
+   -DSCOPLIB_INT_T_IS_LONGLONG -DCLOOG_INT_GMP -DPLUTO_OPENCL \
+   -I../include \
+   -I$(top_srcdir)/include \
+   -I$(top_srcdir)/piplib/include \
+   -I../clan/include \
+   -I$(top_srcdir)/clan/include \
+   -I$(top_srcdir)/pet/include \
+   $(ISL_INCLUDE) \
+   -I../cloog-isl/include \
+   -I$(top_srcdir)/cloog-isl/include \
+   -I../openscop/include \
+   -I$(top_srcdir)/openscop/include \
+   -I../candl/include \
+   -I$(top_srcdir)/candl/include \
+   -I../polylib/include \
+   -I$(top_srcdir)/polylib/include \
+   -I$(top_srcdir)/lib
+
+# To avoid same name object from being created with libtool and without it.
+pluto_CFLAGS = $(AM_CFLAGS) $(pluto_CXXFLAGS)
+
+pluto_LDFLAGS = -static
+pluto_LDADD =  \
+   ../piplib/libpiplib_dp.la \
+   ../openscop/libosl.la \
+   ../clan/libclan.la \
+   ../cloog-isl/libcloog-isl.la \
+   ../pet/libpet.la \
+   $(ISL_LIBADD) \
+   ../polylib/libpolylib64.la \
+   ../candl/libcandl.la \
+   ../lib/libpluto.la \
+   -lm

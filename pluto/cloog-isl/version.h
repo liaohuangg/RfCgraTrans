@@ -1,0 +1,1 @@
+#define CLOOG_HEAD "0.20.0-UNKNOWN"

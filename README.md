@@ -123,7 +123,18 @@ In the example directory of Example, you will find this information：
 * map*_solu*.txt (Scheduling format of back-end mapping)
 * DFGInformation.out (Information about the DFG of the final loop transformation result.)
 
-
-
+## Modify the parameters
+If you wish to modify the parameters, you can open RfCgraTrans/include/RfCgraTrans/Transforms/DfgCreate.h. The meanings of each parameter will be explained next.
+* PERow (The size of the Processing Element Array.)
+* Tf (Cost of switching loop pipelines)
+* Experimental_option (You can choose different methods for loop transformation. 0  local transformation, 1  global transformation, 2  maxfuse transformation, 3  nofuse transformation, 4  original loop)
+* PBPMethod (You can toggle this switch to obtain the transformation results of PBP. 0 means off, and 1 means on.)
+* search_trans_unroll_Switch (During loop transformation search, explore unroll factors of loop unrolling. 0 means off, and 1 means on.)
+* final_unroll_Switch (After searching loop transformations, explore unroll factors of loop unrolling. 0 means off, and 1 means on.)
+* schedule_Switch (You can choose whether to search for sub-scheduling of the DFG of final result of loop transformation. 0 means off, and 1 means on.)
+* DFGLength (The range of activities of operators in DFG.)
+* AfterUnrollDFGLength (The range of activities of operators in unrolled DFG.)
+* searchScheduleNum (The total number of sub-schedules) 
+* subScheduleNum (The number of sub-schedules searched after each relaxation of constraints.)
 
 

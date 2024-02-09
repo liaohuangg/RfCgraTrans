@@ -2,7 +2,14 @@
 Artifact Evaluation Reproduction for "Polyhedral-based Data Reuse Optimization for Imperfectly-Nested Loop Mapping on CGRAs" 
 
 ## Table of contents
-
+1. [Directory Structure](#directory-structure)
+2. [Getting Started](#getting-started)
+    1. [Hardware pre-requisities](#hardware-pre-requisities)
+    2. [Software pre-requisites](#software-pre-requisites)
+    3. [Installation](#installation)
+    4. [Running example](#running-example)
+    5. [Modify the parameters](#modify-the-parameters)
+    6. [Data formats](#data-formats)
 # Directory Structure
 ```
 RfCgraTrans
@@ -274,7 +281,7 @@ An example
 |	  0	  |	  4	  |		  |		  |		  |  
 |	  1	  |	  2	  |	  3	  |		  |		  |  
 |		  |		  |		  |		  |		  |  
-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 Path[0]:
 pre:0  ------  pos:4  -----  latency:4
 25 28 29 30 26 27 
@@ -294,4 +301,18 @@ Path[5]:
 pre:4  ------  pos:5  -----  latency:1
 27 3 0 
 --------------------------------------------
+```
+Note that you need to fill in the corresponding information of DFG in the./run.sh file when attempting a back-end map
+
+# Reference
+
+```
+@inproceedings{huang2023optimizing,
+  title={Optimizing Data Reuse for CGRA Mapping Using Polyhedral-based Loop Transformations},
+  author={Huang, Liao and Liu, Dajiang},
+  booktitle={2023 60th ACM/IEEE Design Automation Conference (DAC)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+
 ```

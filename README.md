@@ -24,5 +24,6 @@ sudo apt install tzdata build-essential \
 libtool autoconf pkg-config flex bison \
 libgmp-dev clang-9 libclang-9-dev texinfo \
 cmake ninja-build git texlive-full numactl
+'''
 
 

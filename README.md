@@ -138,7 +138,7 @@ If you wish to modify the parameters, you can open RfCgraTrans/include/RfCgraTra
 * subScheduleNum (The number of sub-schedules searched after each relaxation of constraints.)
 
 ## Data Formats
-For each loop, the intermediate result of the loop transformation (example.RfCgraTrans*.cloog and example.RfCgraTransFinal.cloog) is as follows:
+For each loop, the intermediate result of the loop transformation is as follows:
 ```
 if ((P0 >= 2) && (P1 >= 2)) {
   for (t2=0;t2<=P0-1;t2++) {
@@ -186,4 +186,79 @@ affine.if #set()[%1, %0] {
     }
     return
   }
+```
+The information in the DFG is as follows：
+```
+dfg_id
+0
+II of DFG
+1
+dfg_dim
+1
+
+dfg_node_info
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+0 
+iterOrder
+-1 
+nodeID
+0
+NodeType
+ArrayLoad
+Array
+%3 = memref.alloc() : memref<1000xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+dfg_edge_info
+Edge1: begin 2 end 4 min 0 dif 0 type Normal
+```
+Format of DFG scheduling
+```
+
+```
+Format of DFG mapping
+```
+----------------------------------------[0]----------------------------------------
+|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
+|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
+|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE 	  |  
+|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
+------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:4  -----  latency:4
+25 28 29 30 26 27 
+```
+```
+----------------------------------------[0]----------------------------------------
+|	  5	  |		  |		  |		  |		  |  
+|	  0	  |	  4	  |		  |		  |		  |  
+|	  1	  |	  2	  |	  3	  |		  |		  |  
+|		  |		  |		  |		  |		  |  
+------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:4  -----  latency:4
+25 28 29 30 26 27 
+Path[1]:
+pre:1  ------  pos:2  -----  latency:2
+50 53 51 52 
+Path[2]:
+pre:1  ------  pos:2  -----  latency:3
+50 53 54 51 52 
+Path[3]:
+pre:2  ------  pos:3  -----  latency:1
+52 59 57 58 
+Path[4]:
+pre:3  ------  pos:4  -----  latency:1
+58 34 31 26 27 
+Path[5]:
+pre:4  ------  pos:5  -----  latency:1
+27 3 0 
+--------------------------------------------
 ```

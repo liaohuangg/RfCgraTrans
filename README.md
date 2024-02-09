@@ -1,10 +1,36 @@
-RfCgraTrans
-==
+# RfCgraTrans
 Artifact Evaluation Reproduction for "Polyhedral-based Data Reuse Optimization for Imperfectly-Nested Loop Mapping on CGRAs" 
-Table of contents
---
+
+## Table of contents
+
+# Directory Structure
+```
+RfCgraTrans
+│   README.md
+│   CMakeLists.txt
+│   LICENSE
+│   Makefile
+│───build
+│───cmake
+│     │───CLooG.cmake
+│     │───FindGMP.cmake
+│     │───glpk.cmake
+│     │───OpenScop.cmake
+│     │───PLUTO.cmake
+│     └───RF_CGRAMap.cmake
+│───example (Test case)
+│───glpk (Integer Linear Programming (ILP) toolkits)
+│───include
+│───lib
+│───llvm
+│───pluto (Tools supporting polyhedral model loop optimization)
+│───RF_DATE (Tools supporting RF-CGRA mapping)
+│───RF_CGRAMap
+│───test
+└───tools
+```
+
 Getting start
-==
 Hardware pre-requisities
 --
 * Ubuntu 20.04.5

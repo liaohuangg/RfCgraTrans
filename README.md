@@ -221,7 +221,39 @@ Edge1: begin 2 end 4 min 0 dif 0 type Normal
 ```
 Format of DFG scheduling
 ```
+=======schedule=====
+ II =  1
+timeStep0  LSU                 PE 
+timeStep1  LSU N1T1_4 N2T1_10  PE 
+timeStep2  LSU                 PE 
+timeStep3  LSU                 PE 
+timeStep4  LSU                 PE N4T4_16 
+timeStep5  LSU                 PE N5T5_20 
+timeStep6  LSU                 PE N6T6_24 
+timeStep7  LSU N7T7_28         PE 
 
+The total number of register
+begin 2 end 4 dif 0 startTime 1 endTime 4 useRe 3
+begin 4 end 5 dif 0 startTime 4 endTime 5 useRe 1
+begin 5 end 6 dif 0 startTime 5 endTime 6 useRe 1
+begin 1 end 6 dif 0 startTime 1 endTime 6 useRe 5
+begin 6 end 7 dif 0 startTime 6 endTime 7 useRe 1
+begin 2 end 4 dif 1 startTime 1 endTime 4 useRe 4
+```
+Format of DFG scheduling that try to map
+```
+|----------|------------|-------------|------------|------------|-------------|-------------|
+|node index|  time step |node's type  |child node 1|child node 2|edge 1's dif |edge 2's dif |
+|----------|------------|-------------|------------|------------|-------------|-------------|
+```
+An example
+```
+0,0,1,2,2,0,1
+1,1,1,4,-1,0,-1
+2,2,0,3,-1,0,-1
+3,4,0,4,-1,0,-1
+4,6,0,5,-1,0,-1
+5,7,1,-1,-1,-1,-1
 ```
 Format of DFG mapping
 ```
@@ -231,10 +263,11 @@ Format of DFG mapping
 |	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE 	  |  
 |	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
 ------------------------------------------------------------------------------------
-Path[0]:
-pre:0  ------  pos:4  -----  latency:4
-25 28 29 30 26 27 
+Path[0]:(dependent edge)
+pre: (Label of the precursor node) ------  pos: (Label of the successor node) -----  latency: (The latency of edge)
+Label of registers
 ```
+An example
 ```
 ----------------------------------------[0]----------------------------------------
 |	  5	  |		  |		  |		  |		  |  

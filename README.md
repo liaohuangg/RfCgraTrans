@@ -108,7 +108,22 @@ cmake .. \
 ninja -j`nproc`
 export LD_LIBRARY_PATH=~/RfCgraTrans/build/pluto/lib:$LD_LIBRARY_PATH
 ```
+## Running Example
+You can run examples
+```
+cd example
+./run.sh
+```
+In the example directory of Example, you will find this information：
+* example.RfCgraTrans.in.mlir (The program transformed from C to MLIR representation.)
+* example.RfCgraTrans.out.mlir (The final result of loop transformations.)
+* example.RfCgraTrans*.cloog (Intermediate results of multiple loop transformations.)
+* example.RfCgraTransFinal.cloog (Intermediate results of loop transformations.)
+* Schedule*_solu*.out (DFG scheduling result)
+* map*_solu*.txt (Scheduling format of back-end mapping)
+* DFGInformation.out (Information about the DFG of the final loop transformation result.)
 
-```
-```
+
+
+
 

@@ -6,7 +6,7 @@
 
 dfg_id
 0
-该DFG的II
+II of DFG
 1
 dfg_dim
 1
@@ -97,7 +97,7 @@ dfg_edge_info
 
 dfg_id
 1
-该DFG的II
+II of DFG
 2
 dfg_dim
 2
@@ -305,7 +305,7 @@ Edge10: begin 1 end 8 min 0 dif 0 type LLReuse
 
 dfg_id
 2
-该DFG的II
+II of DFG
 1
 dfg_dim
 1

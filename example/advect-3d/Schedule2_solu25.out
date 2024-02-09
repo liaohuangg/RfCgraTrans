@@ -1,0 +1,52 @@
+
+=======schedule=====
+
+ II =  2
+
+timeStep0  LSU N22T0_65 N30T0_109 N31T0_120  PE 
+timeStep1  LSU N13T1_24  PE N9T1_11 
+timeStep2  LSU  PE N5T2_4 N10T2_15 
+timeStep3  LSU  PE N6T3_8 
+timeStep4  LSU  PE N11T4_20 
+timeStep5  LSU N18T5_50  PE N14T5_31 
+timeStep6  LSU N23T6_80  PE N15T6_36 
+timeStep7  LSU  PE N16T7_40 
+timeStep8  LSU  PE N17T8_44 
+timeStep9  LSU  PE N19T9_57 N24T9_91 
+timeStep10  LSU  PE N25T10_100 N28T10_104 N32T10_140 
+timeStep11  LSU  PE N29T11_108 
+timeStep12  LSU  PE N33T12_145 
+timeStep13  LSU N20T13_64 N34T13_149  PE 
+
+The total number of register
+begin 5 end 6 dif 0 startTime 2 endTime 3 useRe 1
+begin 9 end 10 dif 0 startTime 1 endTime 2 useRe 1
+begin 10 end 11 dif 0 startTime 2 endTime 4 useRe 2
+begin 6 end 11 dif 0 startTime 3 endTime 4 useRe 1
+begin 13 end 14 dif 0 startTime 1 endTime 5 useRe 4
+begin 14 end 15 dif 0 startTime 5 endTime 6 useRe 1
+begin 15 end 16 dif 0 startTime 6 endTime 7 useRe 1
+begin 11 end 16 dif 0 startTime 4 endTime 7 useRe 3
+begin 16 end 17 dif 0 startTime 7 endTime 8 useRe 1
+begin 18 end 19 dif 0 startTime 5 endTime 9 useRe 4
+begin 17 end 19 dif 0 startTime 8 endTime 9 useRe 1
+begin 19 end 20 dif 0 startTime 9 endTime 13 useRe 4
+begin 23 end 24 dif 0 startTime 6 endTime 9 useRe 3
+begin 22 end 24 dif 0 startTime 0 endTime 9 useRe 9
+begin 24 end 25 dif 0 startTime 9 endTime 10 useRe 1
+begin 28 end 29 dif 0 startTime 10 endTime 11 useRe 1
+begin 25 end 29 dif 0 startTime 10 endTime 11 useRe 1
+begin 31 end 32 dif 0 startTime 0 endTime 10 useRe 10
+begin 30 end 32 dif 0 startTime 0 endTime 10 useRe 10
+begin 32 end 33 dif 0 startTime 10 endTime 12 useRe 2
+begin 29 end 33 dif 0 startTime 11 endTime 12 useRe 1
+begin 33 end 34 dif 0 startTime 12 endTime 13 useRe 1
+begin 19 end 28 dif 0 startTime 9 endTime 10 useRe 1
+begin 19 end 28 dif 1 startTime 9 endTime 10 useRe 3
+begin 13 end 5 dif 3 startTime 1 endTime 2 useRe 7
+begin 13 end 5 dif 2 startTime 1 endTime 2 useRe 5
+begin 13 end 9 dif 4 startTime 1 endTime 1 useRe 8
+begin 13 end 9 dif 1 startTime 1 endTime 1 useRe 2
+begin 13 end 14 dif 5 startTime 1 endTime 5 useRe 14
+begin 13 end 25 dif 3 startTime 1 endTime 10 useRe 15
+  118

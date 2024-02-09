@@ -6,7 +6,7 @@
 
 dfg_id
 0
-该DFG的II
+II of DFG
 1
 dfg_dim
 2
@@ -125,7 +125,7 @@ Edge5: begin 5 end 7 min 0 dif 0 type Normal
 
 dfg_id
 1
-该DFG的II
+II of DFG
 1
 dfg_dim
 3

@@ -6,7 +6,7 @@
 
 dfg_id
 0
-该DFG的II
+II of DFG
 2
 dfg_dim
 2
@@ -193,7 +193,7 @@ Edge8: begin 8 end 9 min 0 dif 0 type Normal
 
 dfg_id
 1
-该DFG的II
+II of DFG
 1
 dfg_dim
 2
@@ -326,7 +326,7 @@ Edge6: begin 6 end 7 min 0 dif 0 type Normal
 
 dfg_id
 2
-该DFG的II
+II of DFG
 1
 dfg_dim
 1
@@ -414,7 +414,7 @@ Edge2: begin 2 end 3 min 0 dif 0 type Normal
 
 dfg_id
 3
-该DFG的II
+II of DFG
 1
 dfg_dim
 2

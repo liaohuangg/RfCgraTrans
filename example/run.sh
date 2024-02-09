@@ -67,7 +67,7 @@ do
     echo $dir
     cd "$BASE/$dir"
     rm $dir.*.RfCgraTrans.out.mlir
-    rm *.RfCgraTrans*.cloog
+    rm *.cloog
     rm DFGInformation.out
     rm ScheduleInformation.out
     rm unrollInformation.out

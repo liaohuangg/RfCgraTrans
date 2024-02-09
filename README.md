@@ -315,4 +315,15 @@ Note that you need to fill in the corresponding information of DFG in the./run.s
   year={2023},
   organization={IEEE}
 
+@inproceedings{zhu2022rf,
+  title={RF-CGRA: a routing-friendly CGRA with hierarchical register chains},
+  author={Zhu, Rong and Wang, Bo and Liu, Dajiang},
+  booktitle={2022 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
+  pages={262--267},
+  year={2022},
+  organization={IEEE}
+}
+
+
+
 ```

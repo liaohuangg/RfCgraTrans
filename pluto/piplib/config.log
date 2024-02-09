@@ -28,7 +28,7 @@ uname -v = #1 SMP Wed Mar 2 00:30:59 UTC 2022
 /bin/universe          = unknown
 
 PATH: ~/anaconda3/bin
-PATH: /root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/remote-cli
+PATH: /root/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/bin/remote-cli
 PATH: ~/anaconda3/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
@@ -643,7 +643,7 @@ configure:9707: /usr/bin/cc -o conftest -O3 -fomit-frame-pointer -malign-double 
 configure:9707: $? = 0
 configure:9707: ./conftest
 configure:9707: $? = 0
-configure:9717: result: 906a3:e200800:fffa3223:1f8bfbff
+configure:9717: result: 906a3:8200800:fffa3223:1f8bfbff
 configure:9931: checking whether C compiler accepts -march=pentium2
 configure:9946: /usr/bin/cc -c -march=pentium2  conftest.c >&5
 cc1: error: CPU you selected does not support x86-64 instruction set
@@ -1105,7 +1105,7 @@ ax_cv_c_flags__mpentium2=no
 ax_cv_c_flags__mpentiumpro=no
 ax_cv_gcc_archflag=unknown
 ax_cv_gcc_x86_cpuid_0=1c:756e6547:6c65746e:49656e69
-ax_cv_gcc_x86_cpuid_1=906a3:e200800:fffa3223:1f8bfbff
+ax_cv_gcc_x86_cpuid_1=906a3:8200800:fffa3223:1f8bfbff
 lt_cv_ar_at_file=@
 lt_cv_archive_cmds_need_lc=no
 lt_cv_deplibs_check_method=pass_all

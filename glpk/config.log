@@ -28,7 +28,7 @@ uname -v = #1 SMP Wed Mar 2 00:30:59 UTC 2022
 /bin/universe          = unknown
 
 PATH: ~/anaconda3/bin
-PATH: /root/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/bin/remote-cli
+PATH: /root/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/bin/remote-cli
 PATH: ~/anaconda3/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin

@@ -137,4 +137,53 @@ If you wish to modify the parameters, you can open RfCgraTrans/include/RfCgraTra
 * searchScheduleNum (The total number of sub-schedules) 
 * subScheduleNum (The number of sub-schedules searched after each relaxation of constraints.)
 
+## Data Formats
+For each loop, the intermediate result of the loop transformation (example.RfCgraTrans*.cloog and example.RfCgraTransFinal.cloog) is as follows:
+```
+if ((P0 >= 2) && (P1 >= 2)) {
+  for (t2=0;t2<=P0-1;t2++) {
+    S0(t2)
+  }
+  for (t2=0;t2<=P1-1;t2++) {
+    for (t3=1;t3<=P0-1;t3++) {
+      S2(t2, t3)
+    }
+  }
+  for (t2=0;t2<=P0-2;t2++) {
+    for (t3=1;t3<=P1-1;t3++) {
+      S1(t3, t2)
+      S3(t3-1, t2)
+    }
+  }
+  for (t3=1;t3<=P1-1;t3++) {
+    S1(t3, P0-1)
+  }
+}
 
+```
+After converting to mlir, it looks like this:
+```
+affine.if #set()[%1, %0] {
+      affine.for %arg7 = 0 to %1 {
+        call @S0(%arg4, %arg7, %arg6) : (memref<?x2600xf64>, index, memref<?xf64>) -> ()
+      }
+      affine.for %arg7 = 0 to %0 {
+        affine.for %arg8 = 1 to %1 {
+          call @S2(%arg3, %arg7, %arg8, %arg5) : (memref<?x2600xf64>, index, index, memref<?x2600xf64>) -> ()
+        }
+      }
+      affine.for %arg7 = 0 to #map0()[%1] {
+        affine.for %arg8 = 1 to %0 {
+          call @S1(%arg4, %arg8, %arg7, %arg5) : (memref<?x2600xf64>, index, index, memref<?x2600xf64>) -> ()
+          %2 = affine.apply #map1(%arg8)
+          call @S3(%arg5, %2, %arg7, %arg4, %arg3) : (memref<?x2600xf64>, index, index, memref<?x2600xf64>, memref<?x2600xf64>) -> ()
+        }
+      }
+      affine.for %arg7 = 1 to %0 {
+        %2 = affine.apply #map0()[%1]
+        call @S1(%arg4, %arg7, %2, %arg5) : (memref<?x2600xf64>, index, index, memref<?x2600xf64>) -> ()
+      }
+    }
+    return
+  }
+```

@@ -1,0 +1,3000 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:06.657249 10098 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu0.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:06.858084 10100 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu1.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:07.059252 10102 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu2.txt
+********************************
+the number of long latency:12
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:8 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:7  ------- preIsRouted:1
+pre:8 ------- pos:11  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  16	  |	  11	  |	  8	  |	  13	  |		  |		  |		  |		  |		  |  
+|	  0	  |	  2	  |	  6	  |	  3	  |	  12	  |		  |		  |		  |		  |  
+|	  1	  |	  4	  |	  5	  |	  9	  |	  10	  |		  |		  |		  |		  |  
+|	  14	  |		  |	  7	  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:3
+49 52 53 50 51 
+Path[1]:
+pre:0  ------  pos:6  -----  latency:4
+49 58 59 60 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:4
+49 64 65 66 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:1
+98 101 54 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:1
+98 113 67 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 61 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+100 107 105 106 
+Path[9]:
+pre:5  ------  pos:9  -----  latency:1
+106 114 111 112 
+Path[10]:
+pre:5  ------  pos:7  -----  latency:2
+106 156 154 155 
+Path[11]:
+pre:5  ------  pos:10  -----  latency:2
+106 114 119 117 118 
+Path[12]:
+pre:5  ------  pos:14  -----  latency:4
+106 156 157 158 147 
+Path[13]:
+pre:6  ------  pos:8  -----  latency:1
+57 9 7 8 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:1
+155 108 115 120 117 118 
+Path[15]:
+pre:8  ------  pos:9  -----  latency:1
+8 3 55 103 109 116 111 112 
+Path[16]:
+pre:8  ------  pos:7  -----  latency:1
+8 3 55 103 109 159 154 155 
+Path[17]:
+pre:8  ------  pos:11  -----  latency:1
+8 3 1 2 
+Path[18]:
+pre:8  ------  pos:16  -----  latency:3
+8 3 4 0 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+112 121 70 21 15 10 5 1 2 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+118 71 68 69 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+2 11 16 13 14 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+69 122 168 217 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+14 22 27 76 125 174 223 272 245 
+--------------------------------------------
+spand time:0.485174
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:1 ------- pos:5  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:3 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+pre:8 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:7  ------- preIsRouted:1
+pre:8 ------- pos:11  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:07.260331 10104 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu3.txt
+********************************
+the number of long latency:11
+pre:6 ------- pos:14  ------- preIsRouted:0
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:5  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  16	  |	  8	  |	  10	  |	  11	  |	  12	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  6	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  4	  |	  5	  |	  9	  |		  |		  |		  |		  |		  |  
+|	  14	  |		  |	  7	  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:6  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:1
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:1
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+100 107 105 106 
+Path[9]:
+pre:5  ------  pos:9  -----  latency:1
+106 114 111 112 
+Path[10]:
+pre:5  ------  pos:7  -----  latency:2
+106 156 154 155 
+Path[11]:
+pre:5  ------  pos:10  -----  latency:2
+106 61 9 7 8 
+Path[12]:
+pre:5  ------  pos:14  -----  latency:4
+106 156 157 158 147 
+Path[13]:
+pre:6  ------  pos:8  -----  latency:1
+57 10 3 1 2 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:1
+155 108 103 54 4 11 7 8 
+Path[15]:
+pre:8  ------  pos:9  -----  latency:1
+2 12 15 67 115 111 112 
+Path[16]:
+pre:8  ------  pos:7  -----  latency:1
+2 55 104 109 159 154 155 
+Path[17]:
+pre:8  ------  pos:11  -----  latency:1
+2 12 15 13 14 
+Path[18]:
+pre:8  ------  pos:16  -----  latency:3
+2 12 5 0 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+112 119 70 21 16 13 14 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+8 17 22 19 20 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+14 23 27 25 26 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+20 71 120 168 217 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+26 76 125 174 223 272 245 
+--------------------------------------------
+spand time:0.44721
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:16  ------- preIsRouted:0
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:3 ------- pos:5  ------- preIsRouted:0
+pre:4 ------- pos:7  ------- preIsRouted:0
+pre:5 ------- pos:6  ------- preIsRouted:0
+pre:6 ------- pos:14  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:07.461405 10106 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu4.txt
+********************************
+the number of long latency:12
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:8  ------- preIsRouted:1
+pre:7 ------- pos:11  ------- preIsRouted:1
+pre:8 ------- pos:10  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:5  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:16  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  5	  |	  6	  |	  7	  |	  9	  |	  10	  |	  12	  |		  |		  |  
+|	  0	  |	  1	  |	  4	  |	  3	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  2	  |		  |	  8	  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:1  -----  latency:1
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:5  -----  latency:2
+51 3 1 2 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 101 53 50 51 
+Path[5]:
+pre:2  ------  pos:5  -----  latency:2
+98 101 53 4 1 2 
+Path[6]:
+pre:2  ------  pos:3  -----  latency:2
+98 113 66 62 63 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:6  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:7  -----  latency:1
+2 10 15 13 14 
+Path[10]:
+pre:6  ------  pos:9  -----  latency:1
+8 16 21 19 20 
+Path[11]:
+pre:6  ------  pos:8  -----  latency:2
+8 61 107 105 106 
+Path[12]:
+pre:6  ------  pos:10  -----  latency:2
+8 16 21 27 25 26 
+Path[13]:
+pre:6  ------  pos:14  -----  latency:4
+8 16 17 18 0 
+Path[14]:
+pre:7  ------  pos:9  -----  latency:2
+14 22 19 20 
+Path[15]:
+pre:7  ------  pos:8  -----  latency:2
+14 67 114 108 105 106 
+Path[16]:
+pre:7  ------  pos:11  -----  latency:2
+14 22 70 68 69 
+Path[17]:
+pre:7  ------  pos:16  -----  latency:4
+14 67 114 162 147 
+Path[18]:
+pre:8  ------  pos:10  -----  latency:1
+106 115 119 71 23 28 25 26 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+20 72 68 69 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+26 33 31 32 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+69 76 74 75 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+32 82 131 180 229 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+75 125 174 223 272 245 
+--------------------------------------------
+spand time:0.53347
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+pre:6 ------- pos:14  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:07.662454 10114 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu5.txt
+********************************
+the number of long latency:10
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:8  ------- preIsRouted:1
+pre:7 ------- pos:11  ------- preIsRouted:1
+pre:8 ------- pos:10  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:16  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+pre:2 ------- pos:6  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  16	  |	  4	  |	  7	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  0	  |	  1	  |	  5	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  9	  |	  6	  |	  8	  |		  |		  |		  |		  |		  |  
+|	  14	  |	  12	  |	  10	  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:1  -----  latency:1
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:5  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+51 3 1 2 
+Path[4]:
+pre:2  ------  pos:4  -----  latency:1
+98 101 53 4 1 2 
+Path[5]:
+pre:2  ------  pos:1  -----  latency:1
+98 101 53 50 51 
+Path[6]:
+pre:2  ------  pos:3  -----  latency:2
+98 113 66 62 63 
+Path[7]:
+pre:3  ------  pos:5  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:7  -----  latency:2
+2 9 7 8 
+Path[9]:
+pre:5  ------  pos:6  -----  latency:1
+57 107 105 106 
+Path[10]:
+pre:6  ------  pos:9  -----  latency:1
+106 102 99 100 
+Path[11]:
+pre:6  ------  pos:8  -----  latency:2
+106 114 111 112 
+Path[12]:
+pre:6  ------  pos:10  -----  latency:2
+106 156 154 155 
+Path[13]:
+pre:6  ------  pos:14  -----  latency:4
+106 156 157 158 147 
+Path[14]:
+pre:7  ------  pos:9  -----  latency:2
+8 5 54 103 99 100 
+Path[15]:
+pre:7  ------  pos:8  -----  latency:2
+8 15 67 115 111 112 
+Path[16]:
+pre:7  ------  pos:11  -----  latency:2
+8 15 13 14 
+Path[17]:
+pre:7  ------  pos:16  -----  latency:4
+8 15 16 17 0 
+Path[18]:
+pre:8  ------  pos:10  -----  latency:1
+112 108 159 154 155 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+100 55 6 10 18 13 14 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+155 150 148 149 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+14 21 19 20 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+149 199 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+20 70 119 168 217 266 245 
+--------------------------------------------
+spand time:0.538084
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:07.863615 10136 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu6.txt
+********************************
+the number of long latency:11
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:8  ------- preIsRouted:1
+pre:7 ------- pos:11  ------- preIsRouted:1
+pre:8 ------- pos:10  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:6  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  9	  |	  6	  |	  8	  |	  10	  |	  12	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  5	  |	  7	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:1
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:2
+49 64 62 63 
+Path[3]:
+pre:1  ------  pos:5  -----  latency:2
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 65 62 63 
+Path[6]:
+pre:2  ------  pos:5  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 59 56 57 
+Path[8]:
+pre:4  ------  pos:6  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:7  -----  latency:1
+100 107 105 106 
+Path[10]:
+pre:6  ------  pos:9  -----  latency:1
+8 3 1 2 
+Path[11]:
+pre:6  ------  pos:8  -----  latency:2
+8 15 13 14 
+Path[12]:
+pre:6  ------  pos:10  -----  latency:2
+8 15 21 19 20 
+Path[13]:
+pre:6  ------  pos:14  -----  latency:4
+8 3 4 5 0 
+Path[14]:
+pre:7  ------  pos:9  -----  latency:2
+106 60 10 6 1 2 
+Path[15]:
+pre:7  ------  pos:8  -----  latency:2
+106 60 10 16 13 14 
+Path[16]:
+pre:7  ------  pos:11  -----  latency:2
+106 114 111 112 
+Path[17]:
+pre:7  ------  pos:16  -----  latency:4
+106 156 157 158 147 
+Path[18]:
+pre:8  ------  pos:10  -----  latency:1
+14 22 19 20 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+2 11 17 66 115 111 112 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.535907
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:6  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:08.064953 10138 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu7.txt
+********************************
+the number of long latency:10
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+pre:8 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:7  ------- preIsRouted:1
+pre:8 ------- pos:11  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:6  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  9	  |	  5	  |	  7	  |	  10	  |	  12	  |		  |		  |		  |  
+|	  0	  |	  1	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  6	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:1  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:2
+51 60 56 57 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 101 53 50 51 
+Path[5]:
+pre:2  ------  pos:6  -----  latency:3
+98 101 102 99 100 
+Path[6]:
+pre:2  ------  pos:3  -----  latency:3
+98 113 66 62 63 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 61 54 103 99 100 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:9  -----  latency:1
+8 3 1 2 
+Path[10]:
+pre:5  ------  pos:7  -----  latency:2
+8 15 13 14 
+Path[11]:
+pre:5  ------  pos:10  -----  latency:2
+8 15 21 19 20 
+Path[12]:
+pre:5  ------  pos:14  -----  latency:4
+8 3 4 5 0 
+Path[13]:
+pre:6  ------  pos:8  -----  latency:1
+100 107 105 106 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:8  ------  pos:9  -----  latency:1
+106 104 55 6 1 2 
+Path[16]:
+pre:8  ------  pos:7  -----  latency:1
+106 114 67 16 13 14 
+Path[17]:
+pre:8  ------  pos:11  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:8  ------  pos:16  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+2 10 17 23 70 119 115 111 112 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+112 120 117 118 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.526214
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:6  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:08.266209 10140 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu8.txt
+********************************
+the number of long latency:8
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:3  ------- preIsRouted:0
+pre:8 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:7  ------- preIsRouted:1
+pre:8 ------- pos:11  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  9	  |	  5	  |	  7	  |	  10	  |	  12	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  6	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[4]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 66 62 63 
+Path[5]:
+pre:1  ------  pos:6  -----  latency:3
+98 101 102 99 100 
+Path[6]:
+pre:2  ------  pos:6  -----  latency:2
+51 103 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:9  -----  latency:1
+8 3 1 2 
+Path[10]:
+pre:5  ------  pos:7  -----  latency:2
+8 15 13 14 
+Path[11]:
+pre:5  ------  pos:10  -----  latency:2
+8 15 21 19 20 
+Path[12]:
+pre:5  ------  pos:14  -----  latency:4
+8 3 4 5 0 
+Path[13]:
+pre:6  ------  pos:8  -----  latency:1
+100 107 105 106 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:8  ------  pos:9  -----  latency:1
+106 61 10 6 1 2 
+Path[16]:
+pre:8  ------  pos:7  -----  latency:1
+106 61 10 16 13 14 
+Path[17]:
+pre:8  ------  pos:11  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:8  ------  pos:16  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+2 11 17 67 115 111 112 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.497224
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:08.467631 10142 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu9.txt
+********************************
+the number of long latency:10
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:3  ------- preIsRouted:0
+pre:8 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:7  ------- preIsRouted:1
+pre:8 ------- pos:11  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  9	  |	  5	  |	  7	  |	  10	  |	  12	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  6	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:1
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:2
+49 64 62 63 
+Path[3]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[4]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 65 62 63 
+Path[5]:
+pre:1  ------  pos:6  -----  latency:3
+98 101 102 99 100 
+Path[6]:
+pre:2  ------  pos:6  -----  latency:2
+51 103 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 59 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:9  -----  latency:1
+8 3 1 2 
+Path[10]:
+pre:5  ------  pos:7  -----  latency:2
+8 15 13 14 
+Path[11]:
+pre:5  ------  pos:10  -----  latency:2
+8 15 21 19 20 
+Path[12]:
+pre:5  ------  pos:14  -----  latency:4
+8 3 4 5 0 
+Path[13]:
+pre:6  ------  pos:8  -----  latency:1
+100 107 105 106 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:8  ------  pos:9  -----  latency:1
+106 60 10 6 1 2 
+Path[16]:
+pre:8  ------  pos:7  -----  latency:1
+106 60 10 16 13 14 
+Path[17]:
+pre:8  ------  pos:11  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:8  ------  pos:16  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+2 11 17 66 115 111 112 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.479807
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:4  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:0
+pre:2 ------- pos:6  ------- preIsRouted:0
+pre:2 ------- pos:4  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:5  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:08.668648 10144 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu10.txt
+********************************
+the number of long latency:9
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:3  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:4  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:0
+pre:2 ------- pos:7  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:2 ------- pos:4  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:5  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:4 ------- pos:7  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:08.869629 10182 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu11.txt
+********************************
+the number of long latency:6
+pre:5 ------- pos:6  ------- preIsRouted:0
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+#################################
+dijkstra short can't find path
+#################################
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:11  ------- preIsRouted:1
+pre:7 ------- pos:9  ------- preIsRouted:0
+pre:8 ------- pos:11  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:9 ------- pos:15  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:09.070657 10184 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu12.txt
+********************************
+the number of long latency:11
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:8  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:1
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:11  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:7 ------- pos:11  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+pre:9 ------- pos:15  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  6	  |	  5	  |	  10	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  3	  |	  1	  |	  4	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  7	  |	  9	  |	  12	  |	  14	  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:3  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:1  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:4  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:3  -----  latency:1
+57 53 50 51 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 107 59 56 57 
+Path[5]:
+pre:2  ------  pos:7  -----  latency:3
+98 101 102 99 100 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:3
+98 113 66 62 63 
+Path[7]:
+pre:3  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[8]:
+pre:4  ------  pos:7  -----  latency:1
+63 60 54 103 99 100 
+Path[9]:
+pre:5  ------  pos:6  -----  latency:1
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:2
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:8  -----  latency:3
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:11  -----  latency:3
+2 9 15 21 19 20 
+Path[13]:
+pre:7  ------  pos:9  -----  latency:1
+100 108 105 106 
+Path[14]:
+pre:8  ------  pos:11  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:10  -----  latency:1
+106 61 10 7 8 
+Path[16]:
+pre:9  ------  pos:8  -----  latency:1
+106 61 10 16 13 14 
+Path[17]:
+pre:9  ------  pos:12  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:9  ------  pos:15  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+8 17 67 115 111 112 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.478978
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:7  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:1
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:09.271780 10186 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu13.txt
+********************************
+the number of long latency:13
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  15	  |	  9	  |	  11	  |	  12	  |	  13	  |	  14	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  6	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  4	  |	  5	  |	  10	  |		  |		  |		  |		  |		  |  
+|	  8	  |		  |	  7	  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:6  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:1
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:1
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+100 107 105 106 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:1
+106 156 147 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:1
+106 114 111 112 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:2
+106 156 154 155 
+Path[12]:
+pre:5  ------  pos:11  -----  latency:2
+106 61 9 7 8 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:1
+57 10 3 1 2 
+Path[14]:
+pre:7  ------  pos:11  -----  latency:1
+155 108 103 54 4 11 7 8 
+Path[15]:
+pre:9  ------  pos:10  -----  latency:1
+2 12 15 67 115 111 112 
+Path[16]:
+pre:9  ------  pos:7  -----  latency:1
+2 55 104 109 157 154 155 
+Path[17]:
+pre:9  ------  pos:12  -----  latency:1
+2 12 15 13 14 
+Path[18]:
+pre:9  ------  pos:15  -----  latency:3
+2 12 5 0 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+112 119 70 21 16 13 14 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+8 17 22 19 20 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+14 23 27 25 26 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+20 71 120 168 217 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+26 76 125 174 223 272 245 
+--------------------------------------------
+spand time:0.421641
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:5  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:09.473671 10188 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu14.txt
+********************************
+the number of long latency:11
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+pre:6 ------- pos:14  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:5  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:16  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:09.674185 10190 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu15.txt
+********************************
+the number of long latency:6
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:7  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:0
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:7 ------- pos:14  ------- preIsRouted:0
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:8  ------- preIsRouted:1
+pre:7 ------- pos:11  ------- preIsRouted:1
+pre:8 ------- pos:10  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:7 ------- pos:6  ------- preIsRouted:1
+pre:7 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:16  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  9	  |	  6	  |	  8	  |	  10	  |	  12	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  5	  |	  7	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:5  -----  latency:2
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:5  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:6  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:7  -----  latency:1
+100 107 105 106 
+Path[10]:
+pre:6  ------  pos:9  -----  latency:1
+8 3 1 2 
+Path[11]:
+pre:6  ------  pos:8  -----  latency:2
+8 15 13 14 
+Path[12]:
+pre:6  ------  pos:10  -----  latency:2
+8 15 21 19 20 
+Path[13]:
+pre:6  ------  pos:14  -----  latency:4
+8 3 4 5 0 
+Path[14]:
+pre:7  ------  pos:9  -----  latency:2
+106 61 10 6 1 2 
+Path[15]:
+pre:7  ------  pos:8  -----  latency:2
+106 61 10 16 13 14 
+Path[16]:
+pre:7  ------  pos:11  -----  latency:2
+106 114 111 112 
+Path[17]:
+pre:7  ------  pos:16  -----  latency:4
+106 156 157 158 147 
+Path[18]:
+pre:8  ------  pos:10  -----  latency:1
+14 22 19 20 
+Path[19]:
+pre:9  ------  pos:11  -----  latency:1
+2 11 17 67 115 111 112 
+Path[20]:
+pre:10  ------  pos:12  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.55483
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:09.875535 10192 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu16.txt
+********************************
+the number of long latency:11
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:0
+pre:8 ------- pos:10  ------- preIsRouted:1
+pre:8 ------- pos:6  ------- preIsRouted:1
+pre:8 ------- pos:11  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:5  ------- preIsRouted:0
+pre:10 ------- pos:11  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:11  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:15  ------- preIsRouted:0
+pre:7 ------- pos:11  ------- preIsRouted:0
+pre:13 ------- pos:17  ------- preIsRouted:0
+pre:9 ------- pos:15  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  14	  |	  6	  |	  9	  |	  7	  |	  10	  |	  12	  |		  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  5	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:5  -----  latency:2
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:5  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:7  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:1
+100 107 105 106 
+Path[10]:
+pre:6  ------  pos:9  -----  latency:1
+2 1 2 
+Path[11]:
+pre:7  ------  pos:6  -----  latency:1
+8 3 1 2 
+Path[12]:
+pre:7  ------  pos:10  -----  latency:1
+8 15 13 14 
+Path[13]:
+pre:7  ------  pos:9  -----  latency:1
+8 3 1 2 
+Path[14]:
+pre:7  ------  pos:14  -----  latency:4
+8 3 4 5 0 
+Path[15]:
+pre:8  ------  pos:6  -----  latency:1
+106 61 10 6 1 2 
+Path[16]:
+pre:8  ------  pos:10  -----  latency:2
+106 61 10 16 13 14 
+Path[17]:
+pre:8  ------  pos:11  -----  latency:2
+106 114 111 112 
+Path[18]:
+pre:8  ------  pos:16  -----  latency:4
+106 156 157 158 147 
+Path[19]:
+pre:9  ------  pos:12  -----  latency:2
+2 11 17 21 19 20 
+Path[20]:
+pre:10  ------  pos:11  -----  latency:1
+14 67 115 111 112 
+Path[21]:
+pre:11  ------  pos:13  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:12  ------  pos:15  -----  latency:1
+20 70 120 168 217 196 
+Path[23]:
+pre:13  ------  pos:17  -----  latency:1
+118 169 218 266 245 
+--------------------------------------------
+spand time:0.53782
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:10.076840 10194 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu17.txt
+********************************
+the number of long latency:11
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:7  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:1
+pre:10 ------- pos:12  ------- preIsRouted:0
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:11  ------- preIsRouted:1
+pre:7 ------- pos:15  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  15	  |	  12	  |	  9	  |	  14	  |		  |		  |		  |		  |		  |  
+|	  0	  |	  2	  |	  6	  |	  3	  |	  13	  |		  |		  |		  |		  |  
+|	  1	  |	  4	  |	  5	  |	  10	  |	  11	  |		  |		  |		  |		  |  
+|	  8	  |		  |	  7	  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:3
+49 52 53 50 51 
+Path[1]:
+pre:0  ------  pos:6  -----  latency:4
+49 58 59 60 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:4
+49 64 65 66 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:1
+98 101 54 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:1
+98 113 67 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 61 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+100 107 105 106 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:1
+106 156 147 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:1
+106 114 111 112 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:2
+106 156 154 155 
+Path[12]:
+pre:5  ------  pos:11  -----  latency:2
+106 114 119 117 118 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:1
+57 9 7 8 
+Path[14]:
+pre:7  ------  pos:11  -----  latency:1
+155 108 115 120 117 118 
+Path[15]:
+pre:9  ------  pos:10  -----  latency:1
+8 3 55 103 109 116 111 112 
+Path[16]:
+pre:9  ------  pos:7  -----  latency:1
+8 3 55 103 109 157 154 155 
+Path[17]:
+pre:9  ------  pos:12  -----  latency:1
+8 3 1 2 
+Path[18]:
+pre:9  ------  pos:15  -----  latency:3
+8 3 4 0 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+112 121 70 21 15 10 5 1 2 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+118 71 68 69 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+2 11 16 13 14 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+69 122 168 217 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+14 22 27 76 125 174 223 272 245 
+--------------------------------------------
+spand time:0.470942
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:2 ------- pos:6  ------- preIsRouted:0
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:12  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:5 ------- pos:14  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:10.277987 10196 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu18.txt
+********************************
+the number of long latency:8
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  8	  |	  10	  |	  6	  |	  9	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  5	  |	  7	  |	  12	  |	  14	  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:1
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:2
+49 64 62 63 
+Path[3]:
+pre:1  ------  pos:5  -----  latency:2
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 65 62 63 
+Path[6]:
+pre:2  ------  pos:5  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 59 56 57 
+Path[8]:
+pre:4  ------  pos:6  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:7  -----  latency:1
+100 107 105 106 
+Path[10]:
+pre:6  ------  pos:8  -----  latency:1
+8 3 0 
+Path[11]:
+pre:6  ------  pos:10  -----  latency:1
+8 3 1 2 
+Path[12]:
+pre:6  ------  pos:9  -----  latency:2
+8 15 13 14 
+Path[13]:
+pre:6  ------  pos:11  -----  latency:2
+8 15 21 19 20 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:2
+106 60 10 4 1 2 
+Path[15]:
+pre:7  ------  pos:9  -----  latency:2
+106 60 10 16 13 14 
+Path[16]:
+pre:7  ------  pos:12  -----  latency:2
+106 114 111 112 
+Path[17]:
+pre:7  ------  pos:15  -----  latency:4
+106 156 157 158 147 
+Path[18]:
+pre:9  ------  pos:11  -----  latency:1
+14 22 19 20 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+2 11 17 66 115 111 112 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.461717
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:8 ------- pos:16  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:10.479647 10198 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu19.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+#################################
+dijkstra short can't find path
+#################################
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:10.680711 10200 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu20.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:10.883468 10202 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu21.txt
+********************************
+the number of long latency:10
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:2 ------- pos:7  ------- preIsRouted:0
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:7  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:6  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:11.083861 10204 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu22.txt
+********************************
+the number of long latency:10
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:2 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:11  ------- preIsRouted:1
+pre:7 ------- pos:9  ------- preIsRouted:0
+pre:8 ------- pos:11  ------- preIsRouted:0
+pre:9 ------- pos:15  ------- preIsRouted:0
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:11.285298 10206 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu23.txt
+********************************
+the number of long latency:12
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:8  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:1
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  6	  |	  5	  |	  10	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  4	  |	  1	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  7	  |	  9	  |	  12	  |	  14	  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:4  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:1  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:2
+49 64 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+57 53 50 51 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 107 59 56 57 
+Path[5]:
+pre:2  ------  pos:3  -----  latency:2
+98 113 65 62 63 
+Path[6]:
+pre:2  ------  pos:7  -----  latency:3
+98 101 102 99 100 
+Path[7]:
+pre:3  ------  pos:7  -----  latency:2
+63 60 54 103 99 100 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[9]:
+pre:5  ------  pos:6  -----  latency:1
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:2
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:8  -----  latency:3
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:11  -----  latency:3
+2 9 15 21 19 20 
+Path[13]:
+pre:7  ------  pos:9  -----  latency:1
+100 108 105 106 
+Path[14]:
+pre:8  ------  pos:11  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:10  -----  latency:1
+106 61 10 7 8 
+Path[16]:
+pre:9  ------  pos:8  -----  latency:1
+106 61 10 16 13 14 
+Path[17]:
+pre:9  ------  pos:12  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:9  ------  pos:15  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+8 17 66 115 111 112 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.4733
+pre:5 ------- pos:8  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:11  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:5  ------- preIsRouted:0
+pre:8 ------- pos:11  ------- preIsRouted:0
+pre:9 ------- pos:15  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:3 ------- pos:4  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:8  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:1
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:11.486424 10208 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu24.txt
+********************************
+the number of long latency:10
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:3  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  7	  |	  5	  |	  10	  |	  8	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  4	  |	  1	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  6	  |	  9	  |	  12	  |	  14	  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:4  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:1  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:2
+49 64 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+57 53 50 51 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 107 59 56 57 
+Path[5]:
+pre:2  ------  pos:6  -----  latency:2
+98 101 99 100 
+Path[6]:
+pre:2  ------  pos:3  -----  latency:2
+98 113 65 62 63 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 60 54 102 99 100 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[9]:
+pre:5  ------  pos:7  -----  latency:1
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:2
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:8  -----  latency:3
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:11  -----  latency:3
+2 9 15 21 19 20 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:2
+100 108 105 106 
+Path[14]:
+pre:8  ------  pos:11  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:10  -----  latency:1
+106 61 10 7 8 
+Path[16]:
+pre:9  ------  pos:8  -----  latency:1
+106 61 10 16 13 14 
+Path[17]:
+pre:9  ------  pos:12  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:9  ------  pos:15  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+8 17 66 115 111 112 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.452297
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:4  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:0
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:11  ------- preIsRouted:1
+pre:7 ------- pos:15  ------- preIsRouted:0
+pre:2 ------- pos:6  ------- preIsRouted:0
+pre:2 ------- pos:4  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:5  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:12  ------- preIsRouted:1
+pre:9 ------- pos:11  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:11.687633 10210 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu25.txt
+********************************
+the number of long latency:13
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  8	  |	  10	  |	  6	  |	  9	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  4	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  5	  |	  7	  |	  12	  |	  14	  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:4  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:5  -----  latency:2
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:2
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:2
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:5  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:4  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:6  -----  latency:1
+57 9 7 8 
+Path[9]:
+pre:5  ------  pos:7  -----  latency:1
+100 107 105 106 
+Path[10]:
+pre:6  ------  pos:8  -----  latency:1
+8 3 0 
+Path[11]:
+pre:6  ------  pos:10  -----  latency:1
+8 3 1 2 
+Path[12]:
+pre:6  ------  pos:9  -----  latency:2
+8 15 13 14 
+Path[13]:
+pre:6  ------  pos:11  -----  latency:2
+8 15 21 19 20 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:2
+106 61 10 4 1 2 
+Path[15]:
+pre:7  ------  pos:9  -----  latency:2
+106 61 10 16 13 14 
+Path[16]:
+pre:7  ------  pos:12  -----  latency:2
+106 114 111 112 
+Path[17]:
+pre:7  ------  pos:15  -----  latency:4
+106 156 157 158 147 
+Path[18]:
+pre:9  ------  pos:11  -----  latency:1
+14 22 19 20 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+2 11 17 67 115 111 112 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.478957
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:2 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:11  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:7 ------- pos:11  ------- preIsRouted:0
+pre:9 ------- pos:15  ------- preIsRouted:0
+pre:2 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:5  ------- preIsRouted:0
+pre:4 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:0
+pre:6 ------- pos:14  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:11.888584 10212 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu26.txt
+********************************
+the number of long latency:8
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:3  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:7  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:1
+pre:10 ------- pos:12  ------- preIsRouted:0
+pre:11 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  8	  |	  5	  |	  10	  |	  7	  |	  11	  |	  13	  |		  |		  |		  |  
+|	  0	  |	  3	  |	  1	  |	  4	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  6	  |	  9	  |	  12	  |	  14	  |		  |		  |		  |		  |  
+|	  15	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:3  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:1  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:4  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:3  -----  latency:1
+57 53 50 51 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 107 59 56 57 
+Path[5]:
+pre:2  ------  pos:6  -----  latency:3
+98 101 102 99 100 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:3
+98 113 66 62 63 
+Path[7]:
+pre:3  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[8]:
+pre:4  ------  pos:6  -----  latency:1
+63 60 54 103 99 100 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:2
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:2
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:3
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:11  -----  latency:3
+2 9 15 21 19 20 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:1
+100 108 105 106 
+Path[14]:
+pre:7  ------  pos:11  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:10  -----  latency:1
+106 61 10 7 8 
+Path[16]:
+pre:9  ------  pos:7  -----  latency:1
+106 61 10 16 13 14 
+Path[17]:
+pre:9  ------  pos:12  -----  latency:1
+106 114 111 112 
+Path[18]:
+pre:9  ------  pos:15  -----  latency:3
+106 156 157 147 
+Path[19]:
+pre:10  ------  pos:12  -----  latency:1
+8 17 67 115 111 112 
+Path[20]:
+pre:11  ------  pos:13  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.482706
+pre:0 ------- pos:1  ------- preIsRouted:1
+pre:0 ------- pos:4  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:0
+pre:2 ------- pos:7  ------- preIsRouted:0
+pre:6 ------- pos:8  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:1
+pre:6 ------- pos:10  ------- preIsRouted:1
+pre:7 ------- pos:16  ------- preIsRouted:0
+pre:2 ------- pos:4  ------- preIsRouted:1
+pre:2 ------- pos:1  ------- preIsRouted:1
+pre:3 ------- pos:5  ------- preIsRouted:0
+pre:4 ------- pos:7  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:12.089905 10215 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu27.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:3  ------- preIsRouted:0
+pre:5 ------- pos:6  ------- preIsRouted:0
+pre:7 ------- pos:9  ------- preIsRouted:1
+pre:7 ------- pos:8  ------- preIsRouted:1
+pre:7 ------- pos:11  ------- preIsRouted:1
+pre:8 ------- pos:10  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:10 ------- pos:12  ------- preIsRouted:0
+#################################
+dijkstra short can't find path
+#################################
+pre:5 ------- pos:8  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:12  ------- preIsRouted:1
+pre:7 ------- pos:9  ------- preIsRouted:0
+pre:8 ------- pos:12  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:12.291558 10217 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu28.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:8  ------- preIsRouted:1
+pre:9 ------- pos:13  ------- preIsRouted:1
+pre:10 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:15  ------- preIsRouted:0
+pre:14 ------- pos:16  ------- preIsRouted:0
+pre:15 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  6	  |	  5	  |	  10	  |	  8	  |	  12	  |	  14	  |		  |		  |		  |  
+|	  0	  |	  3	  |	  1	  |	  4	  |		  |		  |		  |		  |		  |  
+|	  2	  |	  7	  |	  9	  |	  13	  |	  15	  |		  |		  |		  |		  |  
+|	  11	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:3  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:1  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:4  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:3  -----  latency:1
+57 53 50 51 
+Path[4]:
+pre:2  ------  pos:1  -----  latency:1
+98 107 59 56 57 
+Path[5]:
+pre:2  ------  pos:7  -----  latency:3
+98 101 102 99 100 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:3
+98 113 66 62 63 
+Path[7]:
+pre:3  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[8]:
+pre:4  ------  pos:7  -----  latency:1
+63 60 54 103 99 100 
+Path[9]:
+pre:5  ------  pos:6  -----  latency:1
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:2
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:8  -----  latency:3
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:12  -----  latency:3
+2 9 15 21 19 20 
+Path[13]:
+pre:7  ------  pos:9  -----  latency:1
+100 108 105 106 
+Path[14]:
+pre:8  ------  pos:12  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:11  -----  latency:1
+106 156 147 
+Path[16]:
+pre:9  ------  pos:10  -----  latency:1
+106 61 10 7 8 
+Path[17]:
+pre:9  ------  pos:8  -----  latency:1
+106 61 10 16 13 14 
+Path[18]:
+pre:9  ------  pos:13  -----  latency:1
+106 114 111 112 
+Path[19]:
+pre:10  ------  pos:13  -----  latency:1
+8 17 67 115 111 112 
+Path[20]:
+pre:12  ------  pos:14  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:13  ------  pos:15  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:14  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:15  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.475744
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:5 ------- pos:11  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:12.492121 10245 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu29.txt
+********************************
+the number of long latency:5
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0
+pre:8 ------- pos:15  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+pre:8 ------- pos:9  ------- preIsRouted:1
+pre:8 ------- pos:7  ------- preIsRouted:1
+pre:8 ------- pos:12  ------- preIsRouted:1
+pre:9 ------- pos:12  ------- preIsRouted:0
+pre:5 ------- pos:8  ------- preIsRouted:0
+pre:10 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:12.693137 10247 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu30.txt
+********************************
+the number of long latency:8
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:13 ------- pos:16  ------- preIsRouted:0
+pre:14 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  15	  |	  8	  |	  10	  |	  12	  |	  13	  |	  14	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  6	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  4	  |	  5	  |	  9	  |		  |		  |		  |		  |		  |  
+|	  11	  |		  |	  7	  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:6  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:1
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:1
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+100 107 105 106 
+Path[9]:
+pre:5  ------  pos:9  -----  latency:1
+106 114 111 112 
+Path[10]:
+pre:5  ------  pos:11  -----  latency:2
+106 156 147 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:2
+106 156 154 155 
+Path[12]:
+pre:5  ------  pos:10  -----  latency:2
+106 61 9 7 8 
+Path[13]:
+pre:6  ------  pos:8  -----  latency:1
+57 10 3 1 2 
+Path[14]:
+pre:7  ------  pos:10  -----  latency:1
+155 108 103 54 4 11 7 8 
+Path[15]:
+pre:8  ------  pos:9  -----  latency:1
+2 12 15 67 115 111 112 
+Path[16]:
+pre:8  ------  pos:7  -----  latency:1
+2 55 104 109 157 154 155 
+Path[17]:
+pre:8  ------  pos:12  -----  latency:1
+2 12 15 13 14 
+Path[18]:
+pre:8  ------  pos:15  -----  latency:3
+2 12 5 0 
+Path[19]:
+pre:9  ------  pos:12  -----  latency:1
+112 119 70 21 16 13 14 
+Path[20]:
+pre:10  ------  pos:13  -----  latency:1
+8 17 22 19 20 
+Path[21]:
+pre:12  ------  pos:14  -----  latency:1
+14 23 27 25 26 
+Path[22]:
+pre:13  ------  pos:16  -----  latency:1
+20 71 120 168 217 196 
+Path[23]:
+pre:14  ------  pos:17  -----  latency:1
+26 76 125 174 223 272 245 
+--------------------------------------------
+spand time:0.435406
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:12  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:7 ------- pos:12  ------- preIsRouted:0
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:6  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:7  ------- preIsRouted:1
+pre:9 ------- pos:13  ------- preIsRouted:1
+pre:10 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:15  ------- preIsRouted:0
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:14 ------- pos:16  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:15 ------- pos:17  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:12.894532 10249 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu31.txt
+********************************
+the number of long latency:8
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  11	  |	  9	  |	  12	  |	  13	  |	  14	  |	  15	  |		  |		  |		  |  
+|	  0	  |	  2	  |	  6	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  4	  |	  5	  |	  10	  |		  |		  |		  |		  |		  |  
+|	  8	  |		  |	  7	  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:2  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:6  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:4  -----  latency:1
+98 101 99 100 
+Path[4]:
+pre:1  ------  pos:2  -----  latency:1
+98 101 53 50 51 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:1
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+51 102 99 100 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 60 56 57 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+100 107 105 106 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:1
+106 156 147 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:1
+106 114 111 112 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:2
+106 156 154 155 
+Path[12]:
+pre:5  ------  pos:12  -----  latency:2
+106 61 9 7 8 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:1
+57 10 3 1 2 
+Path[14]:
+pre:7  ------  pos:12  -----  latency:1
+155 108 103 54 4 11 7 8 
+Path[15]:
+pre:9  ------  pos:11  -----  latency:1
+2 12 0 
+Path[16]:
+pre:9  ------  pos:10  -----  latency:1
+2 12 15 67 115 111 112 
+Path[17]:
+pre:9  ------  pos:7  -----  latency:1
+2 55 104 109 157 154 155 
+Path[18]:
+pre:9  ------  pos:13  -----  latency:1
+2 12 15 13 14 
+Path[19]:
+pre:10  ------  pos:13  -----  latency:1
+112 119 70 21 16 13 14 
+Path[20]:
+pre:12  ------  pos:14  -----  latency:1
+8 17 22 19 20 
+Path[21]:
+pre:13  ------  pos:15  -----  latency:1
+14 23 27 25 26 
+Path[22]:
+pre:14  ------  pos:16  -----  latency:1
+20 71 120 168 217 196 
+Path[23]:
+pre:15  ------  pos:17  -----  latency:1
+26 76 125 174 223 272 245 
+--------------------------------------------
+spand time:0.402652
+pre:5 ------- pos:8  ------- preIsRouted:0
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:12  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:7 ------- pos:12  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:6  ------- preIsRouted:0
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:7  ------- preIsRouted:1
+pre:9 ------- pos:13  ------- preIsRouted:1
+pre:10 ------- pos:13  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:15  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:13.096118 10251 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu32.txt
+********************************
+the number of long latency:7
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:6  ------- preIsRouted:0
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:14 ------- pos:16  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:15 ------- pos:17  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  8	  |	  5	  |	  10	  |	  7	  |	  12	  |	  14	  |		  |		  |		  |  
+|	  0	  |	  4	  |	  2	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  6	  |	  9	  |	  13	  |	  15	  |		  |		  |		  |		  |  
+|	  11	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:4  -----  latency:2
+49 52 50 51 
+Path[1]:
+pre:0  ------  pos:2  -----  latency:2
+49 58 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:2
+49 64 62 63 
+Path[3]:
+pre:1  ------  pos:2  -----  latency:2
+98 107 59 56 57 
+Path[4]:
+pre:1  ------  pos:6  -----  latency:3
+98 101 102 99 100 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:3
+98 113 65 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+57 53 50 51 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 60 54 103 99 100 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:1
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:1
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:2
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:12  -----  latency:2
+2 9 15 21 19 20 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:1
+100 108 105 106 
+Path[14]:
+pre:7  ------  pos:12  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:11  -----  latency:1
+106 156 147 
+Path[16]:
+pre:9  ------  pos:10  -----  latency:1
+106 61 10 7 8 
+Path[17]:
+pre:9  ------  pos:7  -----  latency:1
+106 61 10 16 13 14 
+Path[18]:
+pre:9  ------  pos:13  -----  latency:1
+106 114 111 112 
+Path[19]:
+pre:10  ------  pos:13  -----  latency:1
+8 17 66 115 111 112 
+Path[20]:
+pre:12  ------  pos:14  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:13  ------  pos:15  -----  latency:1
+112 119 117 118 
+Path[22]:
+pre:14  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:15  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.440029
+pre:5 ------- pos:8  ------- preIsRouted:0
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:5 ------- pos:12  ------- preIsRouted:1
+pre:6 ------- pos:9  ------- preIsRouted:0
+pre:0 ------- pos:3  ------- preIsRouted:1
+pre:0 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:4  ------- preIsRouted:0
+pre:7 ------- pos:12  ------- preIsRouted:0
+pre:9 ------- pos:11  ------- preIsRouted:0
+pre:1 ------- pos:2  ------- preIsRouted:1
+pre:1 ------- pos:3  ------- preIsRouted:1
+pre:2 ------- pos:4  ------- preIsRouted:0
+pre:3 ------- pos:6  ------- preIsRouted:0
+pre:4 ------- pos:5  ------- preIsRouted:0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I20240119 14:14:13.298089 10253 main.cpp:22] GLOG TEST!
+********************************
+the name of File:/home/huangl/workspace/script/polybench-c-4.2.1-beta/1_8_8_Unroll_New/jacobi-1d/map0_solu33.txt
+********************************
+the number of long latency:5
+pre:9 ------- pos:10  ------- preIsRouted:1
+pre:9 ------- pos:7  ------- preIsRouted:1
+pre:9 ------- pos:13  ------- preIsRouted:1
+pre:10 ------- pos:13  ------- preIsRouted:0
+the number of DFG's nodes:18
+the number of DFG's edge:24
+II:1
+FLAGS_pea_row :8 FLAGS_pea_column :8 FLAGS_childNum :4
+pre:0 ------- pos:4  ------- preIsRouted:0
+pre:5 ------- pos:11  ------- preIsRouted:0
+pre:12 ------- pos:14  ------- preIsRouted:0
+pre:13 ------- pos:15  ------- preIsRouted:0
+pre:14 ------- pos:16  ------- preIsRouted:0
+pre:15 ------- pos:17  ------- preIsRouted:0
+
+map成功
+
+========================map成功===========================
+------------------------------------------------------------------------[0]------------------------------------------------------------------------
+|	  8	  |	  5	  |	  10	  |	  7	  |	  12	  |	  14	  |		  |		  |		  |  
+|	  0	  |	  4	  |	  2	  |	  3	  |		  |		  |		  |		  |		  |  
+|	  1	  |	  6	  |	  9	  |	  13	  |	  15	  |		  |		  |		  |		  |  
+|	  11	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  16	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|	  17	  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+|		  |		  |		  |		  |		  |		  |		  |		  |		  |  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Path[0]:
+pre:0  ------  pos:4  -----  latency:3
+49 52 53 50 51 
+Path[1]:
+pre:0  ------  pos:2  -----  latency:3
+49 58 59 56 57 
+Path[2]:
+pre:0  ------  pos:3  -----  latency:3
+49 64 65 62 63 
+Path[3]:
+pre:1  ------  pos:2  -----  latency:2
+98 107 60 56 57 
+Path[4]:
+pre:1  ------  pos:6  -----  latency:3
+98 101 102 99 100 
+Path[5]:
+pre:1  ------  pos:3  -----  latency:3
+98 113 66 62 63 
+Path[6]:
+pre:2  ------  pos:4  -----  latency:1
+57 54 50 51 
+Path[7]:
+pre:3  ------  pos:6  -----  latency:1
+63 61 55 103 99 100 
+Path[8]:
+pre:4  ------  pos:5  -----  latency:1
+51 3 1 2 
+Path[9]:
+pre:5  ------  pos:8  -----  latency:1
+2 9 0 
+Path[10]:
+pre:5  ------  pos:10  -----  latency:1
+2 9 7 8 
+Path[11]:
+pre:5  ------  pos:7  -----  latency:2
+2 9 15 13 14 
+Path[12]:
+pre:5  ------  pos:12  -----  latency:2
+2 9 15 21 19 20 
+Path[13]:
+pre:6  ------  pos:9  -----  latency:1
+100 108 105 106 
+Path[14]:
+pre:7  ------  pos:12  -----  latency:1
+14 22 19 20 
+Path[15]:
+pre:9  ------  pos:11  -----  latency:1
+106 156 147 
+Path[16]:
+pre:9  ------  pos:10  -----  latency:1
+106 114 67 16 10 7 8 
+Path[17]:
+pre:9  ------  pos:7  -----  latency:1
+106 114 67 16 13 14 
+Path[18]:
+pre:9  ------  pos:13  -----  latency:1
+106 114 111 112 
+Path[19]:
+pre:10  ------  pos:13  -----  latency:1
+8 17 23 70 119 115 111 112 
+Path[20]:
+pre:12  ------  pos:14  -----  latency:1
+20 27 25 26 
+Path[21]:
+pre:13  ------  pos:15  -----  latency:1
+112 120 117 118 
+Path[22]:
+pre:14  ------  pos:16  -----  latency:1
+26 76 125 174 223 196 
+Path[23]:
+pre:15  ------  pos:17  -----  latency:1
+118 168 217 266 245 
+--------------------------------------------
+spand time:0.469563
+pre:5 ------- pos:7  ------- preIsRouted:1
+pre:5 ------- pos:9  ------- preIsRouted:1
+pre:5 ------- pos:10  ------- preIsRouted:1
+pre:6 ------- pos:8  ------- preIsRouted:0
+pre:7 ------- pos:10  ------- preIsRouted:0

@@ -262,47 +262,8 @@ An example
 4,6,0,5,-1,0,-1
 5,7,1,-1,-1,-1,-1
 ```
-Format of DFG mapping
-```
-----------------------------------------[0]----------------------------------------
-|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
-|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
-|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE 	  |  
-|	  bank	  |	  PE	  |	  PE	  |	  PE	  |	  PE	  |  
-------------------------------------------------------------------------------------
-Path[0]:(dependent edge)
-pre: (Label of the precursor node) ------  pos: (Label of the successor node) -----  latency: (The latency of edge)
-Label of registers
-```
-An example
-```
-----------------------------------------[0]----------------------------------------
-|	  5	  |		  |		  |		  |		  |  
-|	  0	  |	  4	  |		  |		  |		  |  
-|	  1	  |	  2	  |	  3	  |		  |		  |  
-|		  |		  |		  |		  |		  |  
------------------------------------------------------------------------------------
-Path[0]:
-pre:0  ------  pos:4  -----  latency:4
-25 28 29 30 26 27 
-Path[1]:
-pre:1  ------  pos:2  -----  latency:2
-50 53 51 52 
-Path[2]:
-pre:1  ------  pos:2  -----  latency:3
-50 53 54 51 52 
-Path[3]:
-pre:2  ------  pos:3  -----  latency:1
-52 59 57 58 
-Path[4]:
-pre:3  ------  pos:4  -----  latency:1
-58 34 31 26 27 
-Path[5]:
-pre:4  ------  pos:5  -----  latency:1
-27 3 0 
---------------------------------------------
-```
-Note that you need to fill in the corresponding information of DFG in the./run.sh file when attempting a back-end map
+
+Next, project [RF](https://github.com/coralabo/RF-Map ) is able to perform back-end mapping of DFG in such a format.
 
 # Reference
 
@@ -314,16 +275,4 @@ Note that you need to fill in the corresponding information of DFG in the./run.s
   pages={1--6},
   year={2023},
   organization={IEEE}
-
-@inproceedings{zhu2022rf,
-  title={RF-CGRA: a routing-friendly CGRA with hierarchical register chains},
-  author={Zhu, Rong and Wang, Bo and Liu, Dajiang},
-  booktitle={2022 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
-  pages={262--267},
-  year={2022},
-  organization={IEEE}
-}
-
-
-
 ```

@@ -263,7 +263,7 @@ An example
 5,7,1,-1,-1,-1,-1
 ```
 
-Next, project [RF](https://github.com/coralabo/RF-Map ) is able to perform back-end mapping of DFG in such a format.
+Next, project [RF-Map](https://github.com/coralabo/RF-Map ) is able to perform back-end mapping of DFG in such a format.
 
 # Reference
 

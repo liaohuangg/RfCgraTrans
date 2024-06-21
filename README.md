@@ -111,7 +111,7 @@ cmake .. \
 	-DLLVM_DIR=$BUILD/lib/cmake/llvm \
 	-DLLVM_ENABLE_ASSERTIONS=ON \
 	-DLLVM_EXTERNAL_LIT=$BUILD/bin/llvm-lit \
--G Ninja
+	-G Ninja
 ninja -j`nproc`
 export LD_LIBRARY_PATH=~/RfCgraTrans/build/pluto/lib:$LD_LIBRARY_PATH
 ```

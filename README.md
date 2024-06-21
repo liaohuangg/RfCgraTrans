@@ -44,6 +44,7 @@ RfCgraTrans
 ## Software pre-requisities
 * PLuTo
 * LLVM
+* CMAKE 3.10
 
 ## Installation
 Prepare dependency packages

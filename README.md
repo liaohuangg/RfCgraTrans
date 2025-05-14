@@ -96,10 +96,8 @@ cmake ../llvm \
       -DLLVM_ENABLE_PROJECTS="llvm;clang;mlir" \
       -DLLVM_TARGETS_TO_BUILD="host" \
       -DLLVM_ENABLE_ASSERTIONS=ON \
-      -DCMAKE_BUILD_TYPE=DEBUG \
+      -DCMAKE_BUILD_TYPE=Release \
       -DLLVM_INSTALL_UTILS=ON \
-      -DCMAKE_C_COMPILER=clang \
-      -DCMAKE_CXX_COMPILER=clang++ \
       -G Ninja 
 ninja -j$(nproc)
 

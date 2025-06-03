@@ -63,8 +63,8 @@ source/libclan_la-options.lo: source/options.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
  include/clan/macros.h include/clan/options.h
 
 /usr/include/stdc-predef.h:
@@ -209,9 +209,9 @@ source/libclan_la-options.lo: source/options.c /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
 
 include/clan/macros.h:
 

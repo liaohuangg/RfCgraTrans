@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/huangl/workspace/RfCgraTrans/RF_CGRAMap/include 
+CXX_INCLUDES = -I/root/workspace/RfCgraTrans/RF_CGRAMap/include 
 

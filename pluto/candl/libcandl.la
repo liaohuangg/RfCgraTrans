@@ -17,7 +17,7 @@ old_library='libcandl.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/huangl/workspace/RfCgraTrans/pluto/openscop/libosl.la /home/huangl/workspace/RfCgraTrans/pluto/piplib/libpiplib_dp.la -lgmp'
+dependency_libs=' /root/workspace/RfCgraTrans/pluto/openscop/libosl.la /root/workspace/RfCgraTrans/pluto/piplib/libpiplib_dp.la -lgmp'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/huangl/workspace/RfCgraTrans/build/pluto/lib'
-relink_command="(cd /home/huangl/workspace/RfCgraTrans/pluto/candl; /bin/bash \"/home/huangl/workspace/RfCgraTrans/pluto/candl/libtool\"  --silent --tag CC --mode=relink /usr/bin/cc -Wall -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -o libcandl.la -rpath /home/huangl/workspace/RfCgraTrans/build/pluto/lib source/libcandl_la-dependence.lo source/libcandl_la-ddv.lo source/libcandl_la-scop.lo source/libcandl_la-statement.lo source/libcandl_la-util.lo source/libcandl_la-isl-wrapper.lo source/libcandl_la-label_mapping.lo source/libcandl_la-matrix.lo source/libcandl_la-options.lo source/libcandl_la-piplib-wrapper.lo source/libcandl_la-pruning.lo source/libcandl_la-violation.lo ../openscop/libosl.la ../piplib/libpiplib_dp.la -lgmp -lgmp @inst_prefix_dir@)"
+libdir='/usr/local/lib'
+relink_command="(cd /root/workspace/RfCgraTrans/pluto/candl; /bin/bash \"/root/workspace/RfCgraTrans/pluto/candl/libtool\"  --silent --tag CC --mode=relink gcc -Wall -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -march=athlon64 -o libcandl.la -rpath /usr/local/lib source/libcandl_la-dependence.lo source/libcandl_la-ddv.lo source/libcandl_la-scop.lo source/libcandl_la-statement.lo source/libcandl_la-util.lo source/libcandl_la-isl-wrapper.lo source/libcandl_la-label_mapping.lo source/libcandl_la-matrix.lo source/libcandl_la-options.lo source/libcandl_la-piplib-wrapper.lo source/libcandl_la-pruning.lo source/libcandl_la-violation.lo ../openscop/libosl.la ../piplib/libpiplib_dp.la -lgmp -lgmp @inst_prefix_dir@)"

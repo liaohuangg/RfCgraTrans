@@ -17,7 +17,7 @@ old_library='libclan.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L../openscop /home/huangl/workspace/RfCgraTrans/pluto/openscop/libosl.la -lgmp'
+dependency_libs=' -L../openscop /root/workspace/RfCgraTrans/pluto/openscop/libosl.la -lgmp'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/huangl/workspace/RfCgraTrans/build/pluto/lib'
-relink_command="(cd /home/huangl/workspace/RfCgraTrans/pluto/clan; /bin/bash \"/home/huangl/workspace/RfCgraTrans/pluto/clan/libtool\"  --silent --tag CC --mode=relink /usr/bin/cc -g -O2 -L../openscop -o libclan.la -rpath /home/huangl/workspace/RfCgraTrans/build/pluto/lib source/libclan_la-parser.lo source/libclan_la-scanner.lo source/libclan_la-options.lo source/libclan_la-symbol.lo source/libclan_la-scop.lo source/libclan_la-statement.lo source/libclan_la-relation.lo source/libclan_la-relation_list.lo source/libclan_la-domain.lo source/libclan_la-vector.lo ../openscop/libosl.la @inst_prefix_dir@)"
+libdir='/usr/local/lib'
+relink_command="(cd /root/workspace/RfCgraTrans/pluto/clan; /bin/bash \"/root/workspace/RfCgraTrans/pluto/clan/libtool\"  --silent --tag CC --mode=relink gcc -g -O2 -L../openscop -o libclan.la -rpath /usr/local/lib source/libclan_la-parser.lo source/libclan_la-scanner.lo source/libclan_la-options.lo source/libclan_la-symbol.lo source/libclan_la-scop.lo source/libclan_la-statement.lo source/libclan_la-relation.lo source/libclan_la-relation_list.lo source/libclan_la-domain.lo source/libclan_la-vector.lo ../openscop/libosl.la @inst_prefix_dir@)"

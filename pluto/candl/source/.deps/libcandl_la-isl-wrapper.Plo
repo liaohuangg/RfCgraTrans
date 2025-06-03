@@ -56,14 +56,14 @@ source/libcandl_la-isl-wrapper.lo: source/isl-wrapper.c \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h
 
 /usr/include/stdc-predef.h:
 
@@ -191,18 +191,18 @@ source/libcandl_la-isl-wrapper.lo: source/isl-wrapper.c \
 
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:

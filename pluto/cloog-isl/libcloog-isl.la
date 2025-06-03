@@ -17,7 +17,7 @@ old_library='libcloog-isl.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/lib /home/huangl/workspace/RfCgraTrans/pluto/isl/libisl.la /home/huangl/workspace/RfCgraTrans/pluto/openscop/libosl.la -lgmp'
+dependency_libs=' -L/lib /root/workspace/RfCgraTrans/pluto/isl/libisl.la /root/workspace/RfCgraTrans/pluto/openscop/libosl.la -lgmp'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/huangl/workspace/RfCgraTrans/build/pluto/lib'
-relink_command="(cd /home/huangl/workspace/RfCgraTrans/pluto/cloog-isl; /bin/bash \"/home/huangl/workspace/RfCgraTrans/pluto/cloog-isl/libtool\"  --silent --tag CC --mode=relink /usr/bin/cc -Wall -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -version-info 4:0:0 -rpath /home/huangl/workspace/RfCgraTrans/build/pluto/lib -L/lib -o libcloog-isl.la -rpath /home/huangl/workspace/RfCgraTrans/build/pluto/lib source/libcloog_isl_la-block.lo source/libcloog_isl_la-clast.lo source/libcloog_isl_la-matrix.lo source/libcloog_isl_la-state.lo source/libcloog_isl_la-input.lo source/libcloog_isl_la-int.lo source/libcloog_isl_la-loop.lo source/libcloog_isl_la-names.lo source/libcloog_isl_la-options.lo source/libcloog_isl_la-pprint.lo source/libcloog_isl_la-program.lo source/libcloog_isl_la-statement.lo source/libcloog_isl_la-stride.lo source/libcloog_isl_la-union_domain.lo source/libcloog_isl_la-util.lo source/libcloog_isl_la-version.lo source/isl/libcloog_isl_la-domain.lo source/isl/libcloog_isl_la-constraints.lo source/isl/libcloog_isl_la-backend.lo ../isl/libisl.la ../openscop/libosl.la -lgmp @inst_prefix_dir@)"
+libdir='/usr/local/lib'
+relink_command="(cd /root/workspace/RfCgraTrans/pluto/cloog-isl; /bin/bash \"/root/workspace/RfCgraTrans/pluto/cloog-isl/libtool\"  --silent --tag CC --mode=relink gcc -Wall -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -march=athlon64 -version-info 4:0:0 -rpath /usr/local/lib -L/lib -o libcloog-isl.la -rpath /usr/local/lib source/libcloog_isl_la-block.lo source/libcloog_isl_la-clast.lo source/libcloog_isl_la-matrix.lo source/libcloog_isl_la-state.lo source/libcloog_isl_la-input.lo source/libcloog_isl_la-int.lo source/libcloog_isl_la-loop.lo source/libcloog_isl_la-names.lo source/libcloog_isl_la-options.lo source/libcloog_isl_la-pprint.lo source/libcloog_isl_la-program.lo source/libcloog_isl_la-statement.lo source/libcloog_isl_la-stride.lo source/libcloog_isl_la-union_domain.lo source/libcloog_isl_la-util.lo source/libcloog_isl_la-version.lo source/isl/libcloog_isl_la-domain.lo source/isl/libcloog_isl_la-constraints.lo source/isl/libcloog_isl_la-backend.lo ../isl/libisl.la ../openscop/libosl.la -lgmp @inst_prefix_dir@)"

@@ -57,20 +57,20 @@ source/libcandl_la-ddv.lo: source/ddv.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/assert.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/statement.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/body.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/statement.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/body.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/extbody.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/generic.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/scop.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/extbody.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/generic.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/scop.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -78,12 +78,12 @@ source/libcandl_la-ddv.lo: source/ddv.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/dependence.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/dependence.h \
  include/candl/macros.h include/candl/ddv.h include/candl/statement.h \
  include/candl/piplib.h \
- /home/huangl/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib64.h \
- /home/huangl/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib_dp.h \
- /home/huangl/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib.h \
+ /root/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib64.h \
+ /root/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib_dp.h \
+ /root/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -93,21 +93,21 @@ source/libcandl_la-ddv.lo: source/ddv.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  include/candl/piplib-wrapper.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/osl.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/arrays.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/clay.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/comment.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/coordinates.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/irregular.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/loop.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/null.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/pluto_unroll.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/scatnames.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/symbols.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/textual.h
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/osl.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/arrays.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/clay.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/comment.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/coordinates.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/irregular.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/loop.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/null.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/pluto_unroll.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/scatnames.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/symbols.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/textual.h
 
 /usr/include/stdc-predef.h:
 
@@ -237,33 +237,33 @@ source/libcandl_la-ddv.lo: source/ddv.c /usr/include/stdc-predef.h \
 
 /usr/include/assert.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/statement.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/statement.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/body.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/body.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/extbody.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/extbody.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/generic.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/generic.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/scop.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/scop.h:
 
 /usr/include/unistd.h:
 
@@ -281,7 +281,7 @@ source/libcandl_la-ddv.lo: source/ddv.c /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/dependence.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/dependence.h:
 
 include/candl/macros.h:
 
@@ -291,11 +291,11 @@ include/candl/statement.h:
 
 include/candl/piplib.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib64.h:
+/root/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib64.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib_dp.h:
+/root/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib_dp.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib.h:
+/root/workspace/RfCgraTrans/pluto/piplib/include/piplib/piplib.h:
 
 /usr/include/math.h:
 
@@ -317,32 +317,32 @@ include/candl/piplib.h:
 
 include/candl/piplib-wrapper.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/osl.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/osl.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/arrays.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/arrays.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/clay.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/clay.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/comment.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/comment.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/coordinates.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/coordinates.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/irregular.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/irregular.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/loop.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/loop.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/null.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/null.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/pluto_unroll.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/pluto_unroll.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/scatnames.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/scatnames.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/symbols.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/symbols.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/textual.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/extensions/textual.h:

@@ -17,7 +17,7 @@ old_library='libcloog-isl.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/lib /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libisl.la /home/huangl/workspace/RfCgraTrans/build/pluto/lib/libosl.la -lgmp'
+dependency_libs=' -L/lib /usr/local/lib/libisl.la /usr/local/lib/libosl.la -lgmp'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/huangl/workspace/RfCgraTrans/build/pluto/lib'
+libdir='/usr/local/lib'

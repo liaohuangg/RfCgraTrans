@@ -1,5 +1,5 @@
 #! /bin/sh
-srcdir=/home/huangl/workspace/RfCgraTrans/pluto/cloog-isl
+srcdir=/root/workspace/RfCgraTrans/pluto/cloog-isl
 PACKAGE=cloog
 VERSION=0.20.0
 

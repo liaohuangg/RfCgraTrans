@@ -53,9 +53,9 @@ source/libclan_la-vector.lo: source/vector.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/ctype.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
  include/clan/macros.h include/clan/symbol.h include/clan/vector.h
 
 /usr/include/stdc-predef.h:
@@ -178,11 +178,11 @@ source/libclan_la-vector.lo: source/vector.c /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
 
 include/clan/macros.h:
 

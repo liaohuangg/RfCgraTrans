@@ -57,17 +57,17 @@ source/libclan_la-relation_list.lo: source/relation_list.c \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/ctype.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
- /home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h \
+ /root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h \
  include/clan/relation.h include/clan/options.h \
  include/clan/relation_list.h
 
@@ -199,27 +199,27 @@ source/libclan_la-relation_list.lo: source/relation_list.c \
 
 /usr/include/ctype.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/macros.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/util.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation_list.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/attributes.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/relation.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/int.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/names.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/strings.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/interface.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
 
-/home/huangl/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
+/root/workspace/RfCgraTrans/pluto/openscop/include/osl/vector.h:
 
 include/clan/relation.h:
 

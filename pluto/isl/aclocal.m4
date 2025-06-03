@@ -1,4 +1,4 @@
-# generated automatically by aclocal 1.16.1 -*- Autoconf -*-
+# generated automatically by aclocal 1.16 -*- Autoconf -*-
 
 # Copyright (C) 1996-2018 Free Software Foundation, Inc.
 
@@ -35,7 +35,7 @@ AC_DEFUN([AM_AUTOMAKE_VERSION],
 [am__api_version='1.16'
 dnl Some users find AM_AUTOMAKE_VERSION and mistake it for a way to
 dnl require some minimum version.  Point them to the right macro.
-m4_if([$1], [1.16.1], [],
+m4_if([$1], [1.16], [],
       [AC_FATAL([Do not call $0, use AM_INIT_AUTOMAKE([$1]).])])dnl
 ])
 
@@ -51,7 +51,7 @@ m4_define([_AM_AUTOCONF_VERSION], [])
 # Call AM_AUTOMAKE_VERSION and AM_AUTOMAKE_VERSION so they can be traced.
 # This function is AC_REQUIREd by AM_INIT_AUTOMAKE.
 AC_DEFUN([AM_SET_CURRENT_AUTOMAKE_VERSION],
-[AM_AUTOMAKE_VERSION([1.16.1])dnl
+[AM_AUTOMAKE_VERSION([1.16])dnl
 m4_ifndef([AC_AUTOCONF_VERSION],
   [m4_copy([m4_PACKAGE_VERSION], [AC_AUTOCONF_VERSION])])dnl
 _AM_AUTOCONF_VERSION(m4_defn([AC_AUTOCONF_VERSION]))])
@@ -828,12 +828,24 @@ AC_DEFUN([AM_PATH_PYTHON],
  [
   dnl Find a Python interpreter.  Python versions prior to 2.0 are not
   dnl supported. (2.0 was released on October 16, 2000).
+  m4_define_default([am_py_min_ver], m4_ifval([$1], [$1], [2.0]))
+  dnl The arbitrary default maximum version.
+  m4_define_default([am_py_max_ver], [4.0])
+
   m4_define_default([_AM_PYTHON_INTERPRETER_LIST],
-[python python2 python3 dnl
- python3.9 python3.8 python3.7 python3.6 python3.5 python3.4 python3.3 dnl
- python3.2 python3.1 python3.0 dnl
- python2.7 python2.6 python2.5 python2.4 python2.3 python2.2 python2.1 dnl
- python2.0])
+    [[python] \
+     dnl If we want some Python 2 versions (min version <= 2.7),
+     dnl also search for "python2".
+     m4_if(m4_version_compare(am_py_min_ver, [2.8]), [-1], [python2], []) \
+     [python3] \
+     dnl Construct a comma-separated list of interpreter names (python2.6,
+     dnl python2.7, etc). We only care about the first 3 characters of the
+     dnl version strings (major-dot-minor; not
+     dnl major-dot-minor-dot-bugfix[-dot-whatever])
+     m4_foreach([py_ver],
+       m4_esyscmd_s(seq -s[[", "]] -f["[[%.1f]]"] m4_substr(am_py_max_ver, [0], [3]) -0.1 m4_substr(am_py_min_ver, [0], [3])),
+       dnl Remove python2.8 and python2.9 since they will never exist
+       [m4_bmatch(py_ver, [2.[89]], [], [python]py_ver)])])
 
   AC_ARG_VAR([PYTHON], [the Python interpreter])
 

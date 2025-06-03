@@ -1,0 +1,235 @@
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 2
+
+ nodeID 3
+
+ nodeID 4
+
+ nodeID 5
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 2 end 3 dif 0 startTime 0 endTime 0 useRe 0
+begin 1 end 3 dif 0 startTime 0 endTime 0 useRe 0
+begin 3 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 0 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 5 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 2
+
+ nodeID 3
+
+ nodeID 4
+
+ nodeID 5
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 2 end 3 dif 0 startTime 0 endTime 0 useRe 0
+begin 1 end 3 dif 0 startTime 0 endTime 0 useRe 0
+begin 3 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 0 end 4 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 5 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 2
+
+ nodeID 4
+
+ nodeID 5
+
+ nodeID 6
+
+ nodeID 7
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+timeStep7  LSU  PE 
+
+The total number of register
+begin 1 end 2 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 5 dif 0 startTime 0 endTime 0 useRe 0
+begin 2 end 5 dif 0 startTime 0 endTime 0 useRe 0
+begin 5 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 0 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 6 end 7 dif 0 startTime 0 endTime 0 useRe 0
+begin 7 end 0 dif 1 startTime 0 endTime 0 useRe 1
+  1
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 2
+
+ nodeID 4
+
+ nodeID 5
+
+ nodeID 6
+
+ nodeID 7
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+timeStep7  LSU  PE 
+
+The total number of register
+begin 1 end 2 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 5 dif 0 startTime 0 endTime 0 useRe 0
+begin 2 end 5 dif 0 startTime 0 endTime 0 useRe 0
+begin 5 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 0 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 6 end 7 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+
+============ 3 PNU  Schedule==============
+
+=======print_vars=====
+
+
+ nodeID 0
+
+ nodeID 1
+
+ nodeID 2
+
+ nodeID 4
+
+ nodeID 5
+
+ nodeID 6
+
+ nodeID 7
+
+=======print_cons=====
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU  PE 
+timeStep4  LSU  PE 
+timeStep5  LSU  PE 
+timeStep6  LSU  PE 
+timeStep7  LSU  PE 
+
+The total number of register
+begin 1 end 2 dif 0 startTime 0 endTime 0 useRe 0
+begin 4 end 5 dif 0 startTime 0 endTime 0 useRe 0
+begin 2 end 5 dif 0 startTime 0 endTime 0 useRe 0
+begin 5 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 0 end 6 dif 0 startTime 0 endTime 0 useRe 0
+begin 6 end 7 dif 0 startTime 0 endTime 0 useRe 0
+  0
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU N0T0_3  PE 
+timeStep1  LSU N4T1_18  PE 
+timeStep2  LSU  PE 
+timeStep3  LSU N1T3_12  PE 
+timeStep4  LSU  PE N2T4_16 
+timeStep5  LSU  PE N5T5_25 
+timeStep6  LSU  PE N6T6_29 
+timeStep7  LSU N7T7_33  PE 
+
+The total number of register
+begin 1 end 2 dif 0 startTime 3 endTime 4 useRe 1
+begin 4 end 5 dif 0 startTime 1 endTime 5 useRe 4
+begin 2 end 5 dif 0 startTime 4 endTime 5 useRe 1
+begin 5 end 6 dif 0 startTime 5 endTime 6 useRe 1
+begin 0 end 6 dif 0 startTime 0 endTime 6 useRe 6
+begin 6 end 7 dif 0 startTime 6 endTime 7 useRe 1
+  14

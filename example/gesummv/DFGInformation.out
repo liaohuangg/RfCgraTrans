@@ -1,0 +1,411 @@
+
+
+============DFG ID 0==============
+
+------print_DFGInfo file--------
+
+dfg_id
+0
+II of DFG
+1
+dfg_dim
+1
+dfg_node_info
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+1
+NodeType       
+ArrayStore
+Array
+%4 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+3
+NodeType       
+ArrayStore
+Array
+%6 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%4 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+7
+NodeType       
+ArrayStore
+Array
+%6 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+dfg_edge_info
+
+
+============DFG ID 1==============
+
+------print_DFGInfo file--------
+
+dfg_id
+1
+II of DFG
+2
+dfg_dim
+2
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+0 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+0
+NodeType
+ArrayLoad
+Array
+%2 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+1 
+nodeID
+1
+NodeType
+ArrayLoad
+Array
+%5 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 2
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+2
+%2 = mulf %0, %1 : f64
+earlist 1
+lastest 4
+timeStep 3
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+3
+NodeType
+ArrayLoad
+Array
+%4 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+4
+%4 = addf %2, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%4 = memref.alloc() : memref<2800xf64>
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+6
+NodeType
+ArrayLoad
+Array
+%3 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+8
+%2 = mulf %0, %1 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+9
+NodeType
+ArrayLoad
+Array
+%6 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 4
+timeStep 1
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+10
+%4 = addf %2, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+11
+NodeType       
+ArrayStore
+Array
+%6 = memref.alloc() : memref<2800xf64>
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+dfg_edge_info
+
+Edge0: begin 1 end 2 min 0 dif 0 type Normal
+
+Edge1: begin 0 end 2 min 0 dif 0 type Normal
+
+Edge2: begin 3 end 4 min 0 dif 0 type Normal
+
+Edge3: begin 2 end 4 min 0 dif 0 type Normal
+
+Edge4: begin 4 end 5 min 0 dif 0 type Normal
+
+Edge6: begin 6 end 8 min 0 dif 0 type Normal
+
+Edge7: begin 9 end 10 min 0 dif 0 type Normal
+
+Edge8: begin 8 end 10 min 0 dif 0 type Normal
+
+Edge9: begin 10 end 11 min 0 dif 0 type Normal
+
+Edge10: begin 1 end 8 min 0 dif 0 type LLReuse
+
+
+============DFG ID 2==============
+
+------print_DFGInfo file--------
+
+dfg_id
+2
+II of DFG
+1
+dfg_dim
+1
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+0
+NodeType
+ArrayLoad
+Array
+%4 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+1
+%1 = mulf %arg3, %0 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+3
+NodeType
+ArrayLoad
+Array
+%6 = memref.alloc() : memref<2800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+4
+%3 = mulf %arg2, %2 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+6
+%4 = addf %1, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+7
+NodeType       
+ArrayStore
+Array
+%6 = memref.alloc() : memref<2800xf64>
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+dfg_edge_info
+
+Edge0: begin 0 end 1 min 0 dif 0 type Normal
+
+Edge2: begin 3 end 4 min 0 dif 0 type Normal
+
+Edge4: begin 4 end 6 min 0 dif 0 type Normal
+
+Edge5: begin 1 end 6 min 0 dif 0 type Normal
+
+Edge6: begin 6 end 7 min 0 dif 0 type Normal

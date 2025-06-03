@@ -1,3 +1,4 @@
+/build/*
 /llvm/*
 /glpk/*
 *.lo
@@ -7,5 +8,3 @@
 /pluto/*
 !/pluto/lib/
 !/pluto/include/
-*/bin/
-*/build

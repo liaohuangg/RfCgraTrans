@@ -1,0 +1,515 @@
+
+
+============DFG ID 0==============
+
+------print_DFGInfo file--------
+
+dfg_id
+0
+II of DFG
+1
+dfg_dim
+1
+dfg_node_info
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+1
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+3
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+7
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+dfg_edge_info
+
+
+============DFG ID 1==============
+
+------print_DFGInfo file--------
+
+dfg_id
+1
+II of DFG
+1
+dfg_dim
+1
+dfg_node_info
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+1
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+3
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+2 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+3 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+7
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+dfg_edge_info
+
+
+============DFG ID 2==============
+
+------print_DFGInfo file--------
+
+dfg_id
+2
+II of DFG
+1
+dfg_dim
+1
+dfg_node_info
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+1
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+3
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+2 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+3 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+7
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+dfg_edge_info
+
+
+============DFG ID 3==============
+
+------print_DFGInfo file--------
+
+dfg_id
+3
+II of DFG
+1
+dfg_dim
+2
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+0
+NodeType
+ArrayLoad
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 4
+timeStep 0
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+1
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<2200x1800xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+1 
+nodeID
+2
+NodeType
+ArrayLoad
+Array
+%3 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+3
+%3 = mulf %1, %2 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+4
+%4 = addf %0, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%2 = memref.alloc() : memref<2200xf64>
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+dfg_edge_info
+
+Edge0: begin 2 end 3 min 0 dif 0 type Normal
+
+Edge1: begin 1 end 3 min 0 dif 0 type Normal
+
+Edge2: begin 3 end 4 min 0 dif 0 type Normal
+
+Edge3: begin 0 end 4 min 0 dif 0 type Normal
+
+Edge4: begin 4 end 5 min 0 dif 0 type Normal
+
+
+============DFG ID 4==============
+
+------print_DFGInfo file--------
+
+dfg_id
+4
+II of DFG
+1
+dfg_dim
+2
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+0
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 0
+lastest 4
+timeStep 0
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+1 
+nodeID
+1
+NodeType
+ArrayLoad
+Array
+%4 = memref.alloc() : memref<2200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 0 
+iterFlag
+1 1 
+iterOrder
+1 0 
+nodeID
+2
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<2200x1800xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+3
+%3 = mulf %1, %2 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+4
+%4 = addf %0, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+5
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<1800xf64>
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+dfg_edge_info
+
+Edge0: begin 2 end 3 min 0 dif 0 type Normal
+
+Edge1: begin 1 end 3 min 0 dif 0 type Normal
+
+Edge2: begin 3 end 4 min 0 dif 0 type Normal
+
+Edge3: begin 0 end 4 min 0 dif 0 type Normal
+
+Edge4: begin 4 end 5 min 0 dif 0 type Normal

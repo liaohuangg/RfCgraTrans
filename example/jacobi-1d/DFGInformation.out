@@ -1,0 +1,156 @@
+
+
+============DFG ID 0==============
+
+------print_DFGInfo file--------
+
+dfg_id
+0
+II of DFG
+1
+dfg_dim
+1
+dfg_node_info
+
+————————————AddNode————————————
+
+nodeID
+3
+%2 = addf %0, %1 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+4
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<4000xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+5
+%4 = addf %2, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+6
+%5 = mulf %cst, %4 : f64
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+7
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<4000xf64>
+earlist 4
+lastest 9
+timeStep 9
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+11
+%2 = addf %0, %1 : f64
+earlist 0
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+13
+%4 = addf %2, %3 : f64
+earlist 4
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+14
+%5 = mulf %cst, %4 : f64
+earlist 5
+lastest 8
+timeStep 8
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+-1 
+iterFlag
+1 
+iterOrder
+0 
+nodeID
+15
+NodeType       
+ArrayStore
+Array
+%0 = memref.alloc() : memref<4000xf64>
+earlist 6
+lastest 9
+timeStep 9
+————————————————————————————————
+
+dfg_edge_info
+
+Edge2: begin 4 end 5 min 0 dif 0 type Normal
+
+Edge3: begin 3 end 5 min 0 dif 0 type Normal
+
+Edge4: begin 5 end 6 min 0 dif 0 type Normal
+
+Edge6: begin 6 end 7 min 0 dif 0 type Normal
+
+Edge10: begin 11 end 13 min 0 dif 0 type Normal
+
+Edge11: begin 13 end 14 min 0 dif 0 type Normal
+
+Edge13: begin 14 end 15 min 0 dif 0 type Normal
+
+Edge14: begin 6 end 11 min 0 dif 2 type SLReuse
+
+Edge15: begin 6 end 11 min 0 dif 1 type SLReuse
+
+Edge16: begin 6 end 13 min 0 dif 0 type SLReuse
+
+Edge17: begin 4 end 3 min 0 dif 2 type LLReuse
+
+Edge18: begin 4 end 3 min 0 dif 1 type LLReuse

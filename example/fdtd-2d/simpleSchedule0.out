@@ -1,0 +1,487 @@
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3 N2T0_9  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_16  PE 
+timeStep4  bank  PE N4T4_20 
+timeStep5  bank  PE N5T5_24 
+timeStep6  bank  PE N6T6_28 
+timeStep7  bank N7T7_32  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank N2T1_12  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_18  PE 
+timeStep4  bank N5T4_27  PE N4T4_22 
+timeStep5  bank  PE N6T5_31 
+timeStep6  bank  PE N8T6_35 
+timeStep7  bank  PE N9T7_39 
+timeStep8  bank  PE N10T8_43 
+timeStep9  bank N11T9_47  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N1T0_3 N2T0_9  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_16  PE 
+timeStep4  bank  PE N4T4_20 
+timeStep5  bank  PE N5T5_24 
+timeStep6  bank  PE N6T6_28 
+timeStep7  bank N7T7_32  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N2T0_11  PE 
+timeStep1  bank N1T1_4  PE N4T1_15 
+timeStep2  bank N5T2_21  PE 
+timeStep3  bank N7T3_31  PE N6T3_25 
+timeStep4  bank  PE N8T4_35 
+timeStep5  bank  PE 
+timeStep6  bank  PE N9T6_40 
+timeStep7  bank  PE 
+timeStep8  bank  PE N10T8_45 
+timeStep9  bank N11T9_49  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank N9T1_30  PE 
+timeStep2  bank N2T2_11  PE 
+timeStep3  bank N11T3_38  PE N4T3_15 
+timeStep4  bank  PE N5T4_19 N12T4_42 
+timeStep5  bank  PE N13T5_46 
+timeStep6  bank  PE N6T6_24 N14T6_50 
+timeStep7  bank N7T7_28 N15T7_54  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 4====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank N2T1_12  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_18  PE 
+timeStep4  bank N5T4_27  PE N4T4_22 
+timeStep5  bank  PE N6T5_31 
+timeStep6  bank  PE N8T6_35 
+timeStep7  bank  PE N9T7_39 
+timeStep8  bank  PE N10T8_43 
+timeStep9  bank N11T9_47  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N2T0_9 N3T0_13  PE 
+timeStep1  bank N1T1_4 N9T1_34  PE N4T1_17 N12T1_39 
+timeStep2  bank  PE N5T2_21 N13T2_43 
+timeStep3  bank  PE N6T3_25 
+timeStep4  bank N7T4_29  PE 
+timeStep5  bank  PE 
+timeStep6  bank  PE N14T6_50 
+timeStep7  bank N15T7_54  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 4====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank N2T1_12  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_18  PE 
+timeStep4  bank N5T4_27  PE N4T4_22 
+timeStep5  bank  PE N6T5_31 
+timeStep6  bank  PE N8T6_35 
+timeStep7  bank  PE N9T7_39 
+timeStep8  bank  PE N10T8_43 
+timeStep9  bank N11T9_47  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N2T0_11 N11T0_49 N19T0_79 N21T0_87  PE 
+timeStep1  bank N1T1_4 N9T1_42  PE N12T1_55 N20T1_83 
+timeStep2  bank  PE N13T2_61 N22T2_92 
+timeStep3  bank  PE N14T3_67 N24T3_96 
+timeStep4  bank  PE N25T4_100 
+timeStep5  bank  PE N4T5_21 N26T5_104 
+timeStep6  bank  PE N5T6_27 
+timeStep7  bank N27T7_109  PE N6T7_33 
+timeStep8  bank N7T8_39 N15T8_77  PE 
+timeStep9  bank  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank N2T2_13 N9T2_49  PE 
+timeStep3  bank N18T3_82  PE N12T3_57 
+timeStep4  bank N3T4_21 N23T4_95  PE N13T4_63 N20T4_86 
+timeStep5  bank  PE N4T5_27 N14T5_69 N22T5_90 
+timeStep6  bank N15T6_75  PE N5T6_33 N24T6_100 
+timeStep7  bank  PE N6T7_39 N25T7_104 
+timeStep8  bank N7T8_45  PE N26T8_108 
+timeStep9  bank N27T9_112  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3 N2T0_9  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_16  PE 
+timeStep4  bank  PE N4T4_20 
+timeStep5  bank  PE N5T5_24 
+timeStep6  bank  PE N6T6_28 
+timeStep7  bank N7T7_32  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank N10T1_34 N11T1_40  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 N12T6_50 
+timeStep7  bank  PE N14T7_54 
+timeStep8  bank  PE N16T8_58 
+timeStep9  bank  PE N17T9_62 
+timeStep10  bank N7T10_31  PE N18T10_66 
+timeStep11  bank N19T11_70  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3 N2T0_9  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N3T3_16  PE 
+timeStep4  bank  PE N4T4_20 
+timeStep5  bank  PE N5T5_24 
+timeStep6  bank  PE N6T6_28 
+timeStep7  bank N7T7_32  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N2T0_9  PE 
+timeStep1  bank N1T1_4  PE 
+timeStep2  bank N10T2_39  PE 
+timeStep3  bank N3T3_16  PE N12T3_45 
+timeStep4  bank N15T4_57  PE N4T4_20 
+timeStep5  bank  PE N5T5_24 
+timeStep6  bank  PE N6T6_28 
+timeStep7  bank  PE N14T7_52 
+timeStep8  bank  PE N16T8_64 
+timeStep9  bank  PE N17T9_68 
+timeStep10  bank  PE N18T10_72 
+timeStep11  bank N7T11_36 N19T11_76  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6  PE 
+timeStep4  bank N1T4_10  PE 
+
+
+============DFG ID 0====================
+timeStep0  bank  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N0T3_6 N2T3_14  PE 
+timeStep4  bank N1T4_10 N3T4_18  PE 
+
+
+============DFG ID 1====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 
+
+
+============DFG ID 2====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank N10T1_34 N11T1_40  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 N12T6_50 
+timeStep7  bank  PE N14T7_54 
+timeStep8  bank  PE N16T8_58 
+timeStep9  bank  PE N17T9_62 
+timeStep10  bank N7T10_31  PE N18T10_66 
+timeStep11  bank N19T11_70  PE 
+
+
+============DFG ID 3====================
+timeStep0  bank N1T0_3  PE 
+timeStep1  bank  PE 
+timeStep2  bank  PE 
+timeStep3  bank N2T3_12  PE 
+timeStep4  bank  PE N4T4_16 
+timeStep5  bank  PE N5T5_20 
+timeStep6  bank  PE N6T6_24 
+timeStep7  bank N7T7_28  PE 

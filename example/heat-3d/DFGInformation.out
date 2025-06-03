@@ -1,0 +1,610 @@
+
+
+============第 0 个PNU==============
+
+------print_DFGInfo file--------
+
+dfg_id
+0
+该DFG的II
+2
+dfg_dim
+3
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+1 0 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+2
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+-1 0 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+3
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 4
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 1 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+4
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 -1 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+5
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 4
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 0 1 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+6
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 2
+timeStep 2
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+9
+%7 = mulf %cst, %6 : f64
+earlist 1
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————SubNode————————————
+
+nodeID
+10
+%8 = subf %0, %7 : f64
+earlist 2
+lastest 4
+timeStep 2
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+11
+%9 = addf %8, %1 : f64
+earlist 3
+lastest 5
+timeStep 3
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+12
+%10 = mulf %cst_0, %9 : f64
+earlist 4
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————SubNode————————————
+
+nodeID
+13
+%11 = subf %2, %7 : f64
+earlist 2
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+14
+%12 = addf %11, %3 : f64
+earlist 3
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+15
+%13 = mulf %cst_0, %12 : f64
+earlist 4
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+16
+%14 = addf %10, %13 : f64
+earlist 5
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————SubNode————————————
+
+nodeID
+17
+%15 = subf %4, %7 : f64
+earlist 2
+lastest 5
+timeStep 3
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+18
+%16 = addf %15, %5 : f64
+earlist 3
+lastest 6
+timeStep 4
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+19
+%17 = mulf %cst_0, %16 : f64
+earlist 4
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+20
+%18 = addf %14, %17 : f64
+earlist 6
+lastest 8
+timeStep 8
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+21
+%19 = addf %18, %6 : f64
+earlist 7
+lastest 9
+timeStep 9
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 0 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+22
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<200x200x200xf64>
+earlist 8
+lastest 10
+timeStep 10
+————————————————————————————————
+
+dfg_edge_info
+
+Edge2: begin 9 end 10 min 0 dif 0 type Normal
+
+Edge3: begin 2 end 10 min 0 dif 0 type Normal
+
+Edge4: begin 3 end 11 min 0 dif 0 type Normal
+
+Edge5: begin 10 end 11 min 0 dif 0 type Normal
+
+Edge6: begin 11 end 12 min 0 dif 0 type Normal
+
+Edge8: begin 9 end 13 min 0 dif 0 type Normal
+
+Edge9: begin 4 end 13 min 0 dif 0 type Normal
+
+Edge10: begin 5 end 14 min 0 dif 0 type Normal
+
+Edge11: begin 13 end 14 min 0 dif 0 type Normal
+
+Edge12: begin 14 end 15 min 0 dif 0 type Normal
+
+Edge14: begin 15 end 16 min 0 dif 0 type Normal
+
+Edge15: begin 12 end 16 min 0 dif 0 type Normal
+
+Edge16: begin 9 end 17 min 0 dif 0 type Normal
+
+Edge17: begin 6 end 17 min 0 dif 0 type Normal
+
+Edge19: begin 17 end 18 min 0 dif 0 type Normal
+
+Edge20: begin 18 end 19 min 0 dif 0 type Normal
+
+Edge22: begin 19 end 20 min 0 dif 0 type Normal
+
+Edge23: begin 16 end 20 min 0 dif 0 type Normal
+
+Edge25: begin 20 end 21 min 0 dif 0 type Normal
+
+Edge26: begin 21 end 22 min 0 dif 0 type Normal
+
+Edge27: begin 6 end 18 min 0 dif 2 type LLReuse
+
+Edge28: begin 6 end 9 min 0 dif 1 type LLReuse
+
+Edge29: begin 6 end 21 min 0 dif 1 type LLReuse
+
+
+============第 1 个PNU==============
+
+------print_DFGInfo file--------
+
+dfg_id
+1
+该DFG的II
+2
+dfg_dim
+3
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+1 0 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+2
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 3
+timeStep 0
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+-1 0 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+3
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 4
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 1 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+4
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 -1 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+5
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 4
+timeStep 1
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 0 1 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+6
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<200x200x200xf64>
+earlist 0
+lastest 2
+timeStep 2
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+9
+%7 = mulf %cst, %6 : f64
+earlist 1
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————SubNode————————————
+
+nodeID
+10
+%8 = subf %0, %7 : f64
+earlist 2
+lastest 4
+timeStep 2
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+11
+%9 = addf %8, %1 : f64
+earlist 3
+lastest 5
+timeStep 3
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+12
+%10 = mulf %cst_0, %9 : f64
+earlist 4
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————SubNode————————————
+
+nodeID
+13
+%11 = subf %2, %7 : f64
+earlist 2
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+14
+%12 = addf %11, %3 : f64
+earlist 3
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+15
+%13 = mulf %cst_0, %12 : f64
+earlist 4
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+16
+%14 = addf %10, %13 : f64
+earlist 5
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————SubNode————————————
+
+nodeID
+17
+%15 = subf %4, %7 : f64
+earlist 2
+lastest 5
+timeStep 3
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+18
+%16 = addf %15, %5 : f64
+earlist 3
+lastest 6
+timeStep 4
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+19
+%17 = mulf %cst_0, %16 : f64
+earlist 4
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+20
+%18 = addf %14, %17 : f64
+earlist 6
+lastest 8
+timeStep 8
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+21
+%19 = addf %18, %6 : f64
+earlist 7
+lastest 9
+timeStep 9
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 0 0 
+iterFlag
+1 1 1 
+iterOrder
+2 1 0 
+nodeID
+22
+NodeType       
+ArrayStore
+Array
+%0 = memref.alloc() : memref<200x200x200xf64>
+earlist 8
+lastest 10
+timeStep 10
+————————————————————————————————
+
+dfg_edge_info
+
+Edge2: begin 9 end 10 min 0 dif 0 type Normal
+
+Edge3: begin 2 end 10 min 0 dif 0 type Normal
+
+Edge4: begin 3 end 11 min 0 dif 0 type Normal
+
+Edge5: begin 10 end 11 min 0 dif 0 type Normal
+
+Edge6: begin 11 end 12 min 0 dif 0 type Normal
+
+Edge8: begin 9 end 13 min 0 dif 0 type Normal
+
+Edge9: begin 4 end 13 min 0 dif 0 type Normal
+
+Edge10: begin 5 end 14 min 0 dif 0 type Normal
+
+Edge11: begin 13 end 14 min 0 dif 0 type Normal
+
+Edge12: begin 14 end 15 min 0 dif 0 type Normal
+
+Edge14: begin 15 end 16 min 0 dif 0 type Normal
+
+Edge15: begin 12 end 16 min 0 dif 0 type Normal
+
+Edge16: begin 9 end 17 min 0 dif 0 type Normal
+
+Edge17: begin 6 end 17 min 0 dif 0 type Normal
+
+Edge19: begin 17 end 18 min 0 dif 0 type Normal
+
+Edge20: begin 18 end 19 min 0 dif 0 type Normal
+
+Edge22: begin 19 end 20 min 0 dif 0 type Normal
+
+Edge23: begin 16 end 20 min 0 dif 0 type Normal
+
+Edge25: begin 20 end 21 min 0 dif 0 type Normal
+
+Edge26: begin 21 end 22 min 0 dif 0 type Normal
+
+Edge27: begin 6 end 18 min 0 dif 2 type LLReuse
+
+Edge28: begin 6 end 9 min 0 dif 1 type LLReuse
+
+Edge29: begin 6 end 21 min 0 dif 1 type LLReuse

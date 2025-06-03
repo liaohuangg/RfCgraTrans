@@ -1,0 +1,20 @@
+
+=======schedule=====
+
+ II =  1
+
+timeStep0  LSU N0T0_3 N1T0_8  PE 
+timeStep1  LSU  PE 
+timeStep2  LSU N2T2_14  PE 
+timeStep3  LSU  PE N3T3_18 
+timeStep4  LSU  PE N4T4_22 
+timeStep5  LSU N5T5_26  PE 
+timeStep6  LSU  PE 
+
+The total number of register
+begin 2 end 3 dif 0 startTime 2 endTime 3 useRe 1
+begin 1 end 3 dif 0 startTime 0 endTime 3 useRe 3
+begin 3 end 4 dif 0 startTime 3 endTime 4 useRe 1
+begin 0 end 4 dif 0 startTime 0 endTime 4 useRe 4
+begin 4 end 5 dif 0 startTime 4 endTime 5 useRe 1
+  10

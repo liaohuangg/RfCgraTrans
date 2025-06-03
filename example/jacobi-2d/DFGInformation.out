@@ -1,0 +1,322 @@
+
+
+============DFG ID 0==============
+
+------print_DFGInfo file--------
+
+dfg_id
+0
+II of DFG
+1
+dfg_dim
+2
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+0 -1 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+2
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+3
+%2 = addf %0, %1 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 1 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+4
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 4
+timeStep 0
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+5
+%4 = addf %2, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+1 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+6
+NodeType
+ArrayLoad
+Array
+%0 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+7
+%6 = addf %4, %5 : f64
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+9
+%8 = addf %6, %7 : f64
+earlist 4
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+10
+%9 = mulf %cst, %8 : f64
+earlist 5
+lastest 8
+timeStep 8
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+11
+NodeType       
+ArrayStore
+Array
+%1 = memref.alloc() : memref<2800x2800xf64>
+earlist 6
+lastest 9
+timeStep 9
+————————————————————————————————
+
+dfg_edge_info
+
+Edge0: begin 2 end 3 min 0 dif 0 type Normal
+
+Edge2: begin 4 end 5 min 0 dif 0 type Normal
+
+Edge3: begin 3 end 5 min 0 dif 0 type Normal
+
+Edge4: begin 6 end 7 min 0 dif 0 type Normal
+
+Edge5: begin 5 end 7 min 0 dif 0 type Normal
+
+Edge7: begin 7 end 9 min 0 dif 0 type Normal
+
+Edge8: begin 9 end 10 min 0 dif 0 type Normal
+
+Edge10: begin 10 end 11 min 0 dif 0 type Normal
+
+Edge11: begin 6 end 3 min 0 dif 1 type LLReuse
+
+Edge12: begin 6 end 9 min 0 dif 2 type LLReuse
+
+
+============DFG ID 1==============
+
+------print_DFGInfo file--------
+
+dfg_id
+1
+II of DFG
+1
+dfg_dim
+2
+dfg_node_info
+
+————————————loadNode————————————
+
+NodeShift
+0 -1 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+2
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 3
+timeStep 3
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+3
+%2 = addf %0, %1 : f64
+earlist 1
+lastest 4
+timeStep 4
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+0 1 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+4
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 4
+timeStep 0
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+5
+%4 = addf %2, %3 : f64
+earlist 2
+lastest 5
+timeStep 5
+————————————————————————————————
+
+————————————loadNode————————————
+
+NodeShift
+1 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+6
+NodeType
+ArrayLoad
+Array
+%1 = memref.alloc() : memref<2800x2800xf64>
+earlist 0
+lastest 3
+timeStep 1
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+7
+%6 = addf %4, %5 : f64
+earlist 3
+lastest 6
+timeStep 6
+————————————————————————————————
+
+————————————AddNode————————————
+
+nodeID
+9
+%8 = addf %6, %7 : f64
+earlist 4
+lastest 7
+timeStep 7
+————————————————————————————————
+
+————————————MulNode————————————
+
+nodeID
+10
+%9 = mulf %cst, %8 : f64
+earlist 5
+lastest 8
+timeStep 8
+————————————————————————————————
+
+————————————storeNode————————————
+
+NodeShift
+0 0 
+iterFlag
+1 1 
+iterOrder
+0 1 
+nodeID
+11
+NodeType       
+ArrayStore
+Array
+%0 = memref.alloc() : memref<2800x2800xf64>
+earlist 6
+lastest 9
+timeStep 9
+————————————————————————————————
+
+dfg_edge_info
+
+Edge0: begin 2 end 3 min 0 dif 0 type Normal
+
+Edge2: begin 4 end 5 min 0 dif 0 type Normal
+
+Edge3: begin 3 end 5 min 0 dif 0 type Normal
+
+Edge4: begin 6 end 7 min 0 dif 0 type Normal
+
+Edge5: begin 5 end 7 min 0 dif 0 type Normal
+
+Edge7: begin 7 end 9 min 0 dif 0 type Normal
+
+Edge8: begin 9 end 10 min 0 dif 0 type Normal
+
+Edge10: begin 10 end 11 min 0 dif 0 type Normal
+
+Edge11: begin 6 end 3 min 0 dif 1 type LLReuse
+
+Edge12: begin 6 end 9 min 0 dif 2 type LLReuse

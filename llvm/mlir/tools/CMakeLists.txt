@@ -1,0 +1,8 @@
+add_subdirectory(mlir-cpu-runner)
+add_subdirectory(mlir-opt)
+add_subdirectory(mlir-reduce)
+add_subdirectory(mlir-shlib)
+add_subdirectory(mlir-spirv-cpu-runner)
+add_subdirectory(mlir-translate)
+add_subdirectory(mlir-vulkan-runner)
+add_subdirectory(mlir-clang)

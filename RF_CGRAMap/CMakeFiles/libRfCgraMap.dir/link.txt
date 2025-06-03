@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblibRfCgraMap.a  CMakeFiles/libRfCgraMap.dir/src/CGRA.cpp.o CMakeFiles/libRfCgraMap.dir/src/Register.cpp.o CMakeFiles/libRfCgraMap.dir/src/DFG.cpp.o CMakeFiles/libRfCgraMap.dir/src/tool.cpp.o CMakeFiles/libRfCgraMap.dir/src/GraphRegister.cpp.o CMakeFiles/libRfCgraMap.dir/src/Path.cpp.o
-/usr/bin/ranlib liblibRfCgraMap.a

@@ -1,6 +1,0 @@
-BasedOnStyle: Google
-AllowShortBlocksOnASingleLine: false
-AllowShortFunctionsOnASingleLine: Empty
-AllowShortLoopsOnASingleLine: false
-AllowShortIfStatementsOnASingleLine: false
-DerivePointerAlignment: false

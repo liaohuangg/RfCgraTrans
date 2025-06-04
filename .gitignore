@@ -2,3 +2,9 @@
 *.o
 *.lo
 /llvm/build
+/pluto/*
+!/pluto/lib/
+!/pluto/include/
+/RF_CGRAMap/*
+!RF_CGRAMap/lib/
+!RF_CGRAMap/include/

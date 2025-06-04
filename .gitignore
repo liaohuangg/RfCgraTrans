@@ -9,7 +9,7 @@
 /llvm/build/
 /glpk/examples/.libs/
 /glpk/examples/glpsol
-glpk/src/.libs/
+/glpk/src/.libs/
 /pluto/candl/.libs/
 /pluto/candl/candl
 /pluto/clan/.libs/
@@ -72,3 +72,5 @@ glpk/src/.libs/
 /pluto/polylib/verif_ehrhart64
 /pluto/tool/pluto
 *.log
+*/autom4te.cache/*
+*/*/autom4te.cache/*

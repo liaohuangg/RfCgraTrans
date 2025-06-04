@@ -146,18 +146,18 @@ AUTOCONF = ${SHELL} /root/workspace/RfCgraTrans/pluto/isl/missing autoconf
 AUTOHEADER = ${SHELL} /root/workspace/RfCgraTrans/pluto/isl/missing autoheader
 AUTOMAKE = ${SHELL} /root/workspace/RfCgraTrans/pluto/isl/missing automake-1.16
 AWK = mawk
-CC = gcc
+CC = /usr/bin/cc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -march=athlon64
 CLANG_CXXFLAGS = 
 CLANG_LDFLAGS = 
 CLANG_LIBS = 
 CLANG_RFLAG = 
-CPP = gcc -E
+CPP = /usr/bin/cc -E
 CPPFLAGS = 
-CXX = g++
+CXX = /usr/bin/c++ -std=c++11
 CXX11FLAGS = 
-CXXCPP = g++ -E
+CXXCPP = /usr/bin/c++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -g -O2
 CYGPATH = 
@@ -236,8 +236,8 @@ abs_srcdir = /root/workspace/RfCgraTrans/pluto/isl/doc
 abs_top_builddir = /root/workspace/RfCgraTrans/pluto/isl
 abs_top_srcdir = /root/workspace/RfCgraTrans/pluto/isl
 ac_ct_AR = ar
-ac_ct_CC = gcc
-ac_ct_CXX = g++
+ac_ct_CC = /usr/bin/cc
+ac_ct_CXX = 
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
@@ -278,7 +278,7 @@ pkgconfig_libdir = ${libdir}/pkgconfig
 pkgconfig_libfile = isl.pc
 pkgpyexecdir = ${pyexecdir}/isl
 pkgpythondir = ${pythondir}/isl
-prefix = /usr/local
+prefix = /root/workspace/RfCgraTrans/build/pluto
 program_transform_name = s,x,x,
 psdir = ${docdir}
 pyexecdir = ${exec_prefix}/lib/python3.8/site-packages

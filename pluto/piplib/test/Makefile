@@ -154,11 +154,11 @@ AUTOCONF = ${SHELL} /root/workspace/RfCgraTrans/pluto/piplib/autoconf/missing au
 AUTOHEADER = ${SHELL} /root/workspace/RfCgraTrans/pluto/piplib/autoconf/missing autoheader
 AUTOMAKE = ${SHELL} /root/workspace/RfCgraTrans/pluto/piplib/autoconf/missing automake-1.16
 AWK = mawk
-CC = gcc
+CC = /usr/bin/cc
 CCDEPMODE = depmode=gcc3
 CD = 
 CFLAGS = -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -march=athlon64
-CPP = gcc -E
+CPP = /usr/bin/cc -E
 CPPFLAGS = 
 CYGPATH_W = echo
 DEFS = -DPACKAGE_NAME=\"piplib\" -DPACKAGE_TARNAME=\"piplib\" -DPACKAGE_VERSION=\"1.4.0\" -DPACKAGE_STRING=\"piplib\ 1.4.0\" -DPACKAGE_BUGREPORT=\"piplib-development@googlegroups.com\" -DPACKAGE_URL=\"\" -DPACKAGE=\"piplib\" -DVERSION=\"1.4.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DSTDC_HEADERS=1 -DHAVE_ERRNO_H=1 -DHAVE_STDDEF_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_STRINGS_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_LONG_INT=8
@@ -223,7 +223,7 @@ abs_srcdir = /root/workspace/RfCgraTrans/pluto/piplib/test
 abs_top_builddir = /root/workspace/RfCgraTrans/pluto/piplib
 abs_top_srcdir = /root/workspace/RfCgraTrans/pluto/piplib
 ac_ct_AR = ar
-ac_ct_CC = gcc
+ac_ct_CC = /usr/bin/cc
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
@@ -263,7 +263,7 @@ oldincludedir = /usr/include
 pdfdir = ${docdir}
 piplibs =  libpiplib_dp.la
 pips =  pip_dp$(EXEEXT)
-prefix = /usr/local
+prefix = /root/workspace/RfCgraTrans/build/pluto
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run

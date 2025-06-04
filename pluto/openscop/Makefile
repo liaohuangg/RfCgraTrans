@@ -577,12 +577,12 @@ AUTOCONF = ${SHELL} /root/workspace/RfCgraTrans/pluto/openscop/autoconf/missing 
 AUTOHEADER = ${SHELL} /root/workspace/RfCgraTrans/pluto/openscop/autoconf/missing autoheader
 AUTOMAKE = ${SHELL} /root/workspace/RfCgraTrans/pluto/openscop/autoconf/missing automake-1.16
 AWK = mawk
-CC = gcc
+CC = /usr/bin/cc
 CCDEPMODE = depmode=gcc3
 CD = 
 CFLAGS = -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -march=athlon64
 CFLAGS_WARN =  -Wall
-CPP = gcc -E
+CPP = /usr/bin/cc -E
 CPPFLAGS = -DOSL_GMP_IS_HERE 
 CYGPATH_W = echo
 DEFS = -DPACKAGE_NAME=\"osl\" -DPACKAGE_TARNAME=\"osl\" -DPACKAGE_VERSION=\"0.9.2\" -DPACKAGE_STRING=\"osl\ 0.9.2\" -DPACKAGE_BUGREPORT=\"cedric.bastoul@u-psud.fr,pouchet@cse.ohio-state.edu\" -DPACKAGE_URL=\"\" -DPACKAGE=\"osl\" -DVERSION=\"0.9.2\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DSTDC_HEADERS=1 -DHAVE_ERRNO_H=1 -DHAVE_STDDEF_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_STRINGS_H=1 -DHAVE_UNISTD_H=1 -DHAVE_STRTOL=1 -DHAVE_LIBGMP=1
@@ -646,7 +646,7 @@ abs_top_builddir = /root/workspace/RfCgraTrans/pluto/openscop
 abs_top_srcdir = /root/workspace/RfCgraTrans/pluto/openscop
 ac_aux_dir = autoconf
 ac_ct_AR = ar
-ac_ct_CC = gcc
+ac_ct_CC = /usr/bin/cc
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
@@ -682,7 +682,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /usr/local
+prefix = /root/workspace/RfCgraTrans/build/pluto
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run

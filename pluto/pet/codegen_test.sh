@@ -1,7 +1,7 @@
 #!/bin/sh
 
 EXEEXT=
-srcdir=/home/huangl/workspace/RfCgraTrans/pluto/isl
+srcdir=/root/workspace/RfCgraTrans/pluto/isl
 
 for i in $srcdir/test_inputs/codegen/*.st \
 		$srcdir/test_inputs/codegen/cloog/*.st; do

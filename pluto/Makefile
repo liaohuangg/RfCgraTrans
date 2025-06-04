@@ -261,13 +261,13 @@ AUTOMAKE = ${SHELL} /root/workspace/RfCgraTrans/pluto/missing automake-1.16
 AWK = mawk
 BASH = /bin/bash
 BUILD_DIR = /root/workspace/RfCgraTrans/pluto
-CC = gcc
+CC = /usr/bin/cc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -Wall
-CPP = gcc -E
+CPP = /usr/bin/cc -E
 CPPFLAGS = 
-CXX = g++ -std=c++11
-CXXCPP = g++ -std=c++11 -E
+CXX = /usr/bin/c++ -std=c++11
+CXXCPP = /usr/bin/c++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -Wall -std=c++11
 CYGPATH_W = echo
@@ -331,8 +331,8 @@ abs_srcdir = /root/workspace/RfCgraTrans/pluto
 abs_top_builddir = /root/workspace/RfCgraTrans/pluto
 abs_top_srcdir = /root/workspace/RfCgraTrans/pluto
 ac_ct_AR = ar
-ac_ct_CC = gcc
-ac_ct_CXX = g++
+ac_ct_CC = /usr/bin/cc
+ac_ct_CXX = 
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
@@ -368,7 +368,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /usr/local
+prefix = /root/workspace/RfCgraTrans/build/pluto
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run

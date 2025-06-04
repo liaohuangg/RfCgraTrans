@@ -13,8 +13,8 @@
 # This file is available under the MIT license. Please see LICENSE in the
 # top-level directory for details.
 #
-pluto=/home/huangl/workspace/RfCgraTrans/pluto/tool/pluto
-inscop=/home/huangl/workspace/RfCgraTrans/pluto/inscop
+pluto=/root/workspace/RfCgraTrans/pluto/tool/pluto
+inscop=/root/workspace/RfCgraTrans/pluto/inscop
 
 # Some additional setup here to ensure that variables are visible outside of the
 # run function.

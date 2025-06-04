@@ -558,13 +558,13 @@ AUTOHEADER = ${SHELL} /root/workspace/RfCgraTrans/pluto/cloog-isl/autoconf/missi
 AUTOMAKE = ${SHELL} /root/workspace/RfCgraTrans/pluto/cloog-isl/autoconf/missing automake-1.16
 AWK = mawk
 BITS = gmp
-CC = gcc
+CC = /usr/bin/cc
 CCDEPMODE = depmode=gcc3
 CD = 
 CFLAGS = -O3 -fomit-frame-pointer -malign-double -fstrict-aliasing -ffast-math -march=athlon64
 CFLAGS_WARN =  -Wall
 CLOOG_INT_CONFIGURE = CLOOG_INT_GMP
-CPP = gcc -E
+CPP = /usr/bin/cc -E
 CPPFLAGS = -DISL_USING_GMP_VAL=1 
 CYGPATH_W = echo
 DEFS = -DPACKAGE_NAME=\"cloog\" -DPACKAGE_TARNAME=\"cloog\" -DPACKAGE_VERSION=\"0.20.0\" -DPACKAGE_STRING=\"cloog\ 0.20.0\" -DPACKAGE_BUGREPORT=\"cloog-development@googlegroups.com\" -DPACKAGE_URL=\"\" -DPACKAGE=\"cloog\" -DVERSION=\"0.20.0\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DSTDC_HEADERS=1 -DHAVE_STRTOL=1 -DHAVE_GETRUSAGE=1 -DCLOOG_RUSAGE=/\*\*/ -DHAVE_DECL_MP_GET_MEMORY_FUNCTIONS=1
@@ -633,7 +633,7 @@ abs_srcdir = /root/workspace/RfCgraTrans/pluto/cloog-isl
 abs_top_builddir = /root/workspace/RfCgraTrans/pluto/cloog-isl
 abs_top_srcdir = /root/workspace/RfCgraTrans/pluto/cloog-isl
 ac_ct_AR = ar
-ac_ct_CC = gcc
+ac_ct_CC = /usr/bin/cc
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
@@ -671,7 +671,7 @@ oldincludedir = /usr/include
 pdfdir = ${docdir}
 pkgconfig_libdir = ${libdir}/pkgconfig
 pkgconfig_libfile = cloog-isl.pc
-prefix = /usr/local
+prefix = /root/workspace/RfCgraTrans/build/pluto
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
